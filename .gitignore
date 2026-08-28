@@ -1,5 +1,23 @@
+# Python
 __pycache__/
 *.pyc
 .venv/
 venv/
-models/*.bin
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# HuggingFace / LLM weights
+.cache/
+hf-cache/
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.ckpt
+
+# Temporary
+*.tmp
