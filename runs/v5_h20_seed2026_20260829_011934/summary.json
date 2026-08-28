@@ -1,0 +1,11 @@
+{
+  "horizon": 20,
+  "seed": 2026,
+  "years": 9,
+  "mean_test_ic": 0.0628481187501642,
+  "median_test_ic": 0.06984665339164574,
+  "std_test_ic": 0.03549197849553498,
+  "mean_test_spread": 0.02551331705767941,
+  "mean_best_epoch": 11.333333333333334,
+  "mean_valid_ic": 0.08484235197272956
+}

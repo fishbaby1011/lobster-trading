@@ -148,3 +148,43 @@ for GPU in "${GPUS[@]}"; do
   done
 
 done
+
+
+# ============================================================
+# WAIT FOR ALL WORKERS
+# ============================================================
+
+FAILED=0
+
+for PID in "${PIDS[@]}"; do
+    if ! wait "$PID"; then
+        FAILED=1
+    fi
+done
+
+echo
+echo "============================================================"
+echo "V5 TRAINING COMPLETE"
+echo "============================================================"
+echo "End: $(date -Iseconds)"
+
+cat "$STATUS_FILE"
+
+DONE=$(awk 'NR>1 {n++} END {print n+0}' "$STATUS_FILE")
+BAD=$(awk -F, 'NR>1 && $3 != 0 {n++} END {print n+0}' "$STATUS_FILE")
+
+echo
+echo "Completed: $DONE / $TOTAL_JOBS"
+echo "Failed   : $BAD"
+
+if (( DONE != TOTAL_JOBS )); then
+    echo "ERROR: incomplete experiment set"
+    exit 1
+fi
+
+if (( BAD != 0 || FAILED != 0 )); then
+    echo "ERROR: one or more experiments failed"
+    exit 1
+fi
+
+echo "All V5 experiments completed successfully."

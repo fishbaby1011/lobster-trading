@@ -1,0 +1,170 @@
+2026-08-29 01:12:38,980 | INFO | rows=173,090 stocks=50 dates=2012-04-06 00:00:00->2026-08-13 00:00:00 H=10
+2026-08-29 01:12:39,096 | INFO | ==========================================================================================
+2026-08-29 01:12:39,096 | INFO | YEAR 2018 train=56,168 valid=11,368 refit=68,075 test=12,226
+2026-08-29 01:12:44,138 | INFO | select epoch=001 loss=0.815056 validIC=0.01084
+2026-08-29 01:12:44,512 | INFO | select epoch=005 loss=0.691687 validIC=0.03590
+2026-08-29 01:12:44,957 | INFO | select epoch=010 loss=0.690390 validIC=0.03728
+2026-08-29 01:12:45,380 | INFO | select epoch=015 loss=0.686629 validIC=0.03090
+2026-08-29 01:12:45,817 | INFO | select epoch=020 loss=0.684334 validIC=0.02411
+2026-08-29 01:12:46,269 | INFO | select epoch=025 loss=0.684587 validIC=0.02589
+2026-08-29 01:12:46,698 | INFO | select epoch=030 loss=0.681321 validIC=0.02818
+2026-08-29 01:12:47,127 | INFO | select epoch=035 loss=0.680167 validIC=0.03163
+2026-08-29 01:12:47,563 | INFO | select epoch=040 loss=0.677529 validIC=0.03132
+2026-08-29 01:12:47,989 | INFO | select epoch=045 loss=0.672049 validIC=0.02799
+2026-08-29 01:12:48,372 | INFO | select epoch=050 loss=0.667118 validIC=0.02001
+2026-08-29 01:12:48,373 | INFO | select early-stop=50 best_epoch=10 best_valid_ic=0.03728
+2026-08-29 01:12:48,379 | INFO | REFIT year=2018 epochs=10 rows=68,075
+2026-08-29 01:12:51,054 | INFO | TEST year=2018 IC=0.03334 spread=-0.0094%
+2026-08-29 01:12:51,184 | INFO | ==========================================================================================
+2026-08-29 01:12:51,184 | INFO | YEAR 2019 train=68,075 valid=11,676 refit=80,290 test=12,050
+2026-08-29 01:12:53,284 | INFO | select epoch=001 loss=0.872171 validIC=-0.00418
+2026-08-29 01:12:53,700 | INFO | select epoch=005 loss=0.691812 validIC=0.07591
+2026-08-29 01:12:54,200 | INFO | select epoch=010 loss=0.689685 validIC=0.06240
+2026-08-29 01:12:54,693 | INFO | select epoch=015 loss=0.688007 validIC=0.06557
+2026-08-29 01:12:55,244 | INFO | select epoch=020 loss=0.687210 validIC=0.07507
+2026-08-29 01:12:55,764 | INFO | select epoch=025 loss=0.684601 validIC=0.07101
+2026-08-29 01:12:56,280 | INFO | select epoch=030 loss=0.682541 validIC=0.05293
+2026-08-29 01:12:56,810 | INFO | select epoch=035 loss=0.679350 validIC=0.05560
+2026-08-29 01:12:57,342 | INFO | select epoch=040 loss=0.675775 validIC=0.06057
+2026-08-29 01:12:57,862 | INFO | select epoch=045 loss=0.668903 validIC=0.03867
+2026-08-29 01:12:57,862 | INFO | select early-stop=45 best_epoch=5 best_valid_ic=0.07591
+2026-08-29 01:12:57,867 | INFO | REFIT year=2019 epochs=5 rows=80,290
+2026-08-29 01:13:00,654 | INFO | TEST year=2019 IC=0.01381 spread=0.1361%
+2026-08-29 01:13:00,745 | INFO | ==========================================================================================
+2026-08-29 01:13:00,745 | INFO | YEAR 2020 train=80,290 valid=11,500 refit=92,340 test=12,250
+2026-08-29 01:13:03,211 | INFO | select epoch=001 loss=0.846019 validIC=-0.04341
+2026-08-29 01:13:03,614 | INFO | select epoch=005 loss=0.692126 validIC=-0.01885
+2026-08-29 01:13:04,082 | INFO | select epoch=010 loss=0.690203 validIC=0.01325
+2026-08-29 01:13:04,549 | INFO | select epoch=015 loss=0.688629 validIC=0.01768
+2026-08-29 01:13:05,020 | INFO | select epoch=020 loss=0.687156 validIC=-0.00454
+2026-08-29 01:13:05,599 | INFO | select epoch=025 loss=0.685354 validIC=0.04382
+2026-08-29 01:13:06,159 | INFO | select epoch=030 loss=0.682780 validIC=0.01299
+2026-08-29 01:13:06,751 | INFO | select epoch=035 loss=0.678348 validIC=-0.02668
+2026-08-29 01:13:07,316 | INFO | select epoch=040 loss=0.673090 validIC=0.02270
+2026-08-29 01:13:07,834 | INFO | select epoch=045 loss=0.665057 validIC=0.00265
+2026-08-29 01:13:08,365 | INFO | select epoch=050 loss=0.654537 validIC=0.00037
+2026-08-29 01:13:08,923 | INFO | select epoch=055 loss=0.641152 validIC=0.02460
+2026-08-29 01:13:09,481 | INFO | select epoch=060 loss=0.623570 validIC=-0.00881
+2026-08-29 01:13:10,031 | INFO | select epoch=065 loss=0.609162 validIC=-0.02114
+2026-08-29 01:13:10,031 | INFO | select early-stop=65 best_epoch=25 best_valid_ic=0.04382
+2026-08-29 01:13:10,038 | INFO | REFIT year=2020 epochs=25 rows=92,340
+2026-08-29 01:13:14,738 | INFO | TEST year=2020 IC=0.05277 spread=0.5976%
+2026-08-29 01:13:14,837 | INFO | ==========================================================================================
+2026-08-29 01:13:14,838 | INFO | YEAR 2021 train=92,340 valid=11,700 refit=104,590 test=12,150
+2026-08-29 01:13:17,538 | INFO | select epoch=001 loss=0.831540 validIC=0.06752
+2026-08-29 01:13:17,980 | INFO | select epoch=005 loss=0.691674 validIC=0.04266
+2026-08-29 01:13:18,500 | INFO | select epoch=010 loss=0.690067 validIC=0.03574
+2026-08-29 01:13:19,004 | INFO | select epoch=015 loss=0.688730 validIC=0.06065
+2026-08-29 01:13:19,506 | INFO | select epoch=020 loss=0.687000 validIC=0.07903
+2026-08-29 01:13:20,111 | INFO | select epoch=025 loss=0.685374 validIC=0.04552
+2026-08-29 01:13:20,733 | INFO | select epoch=030 loss=0.682834 validIC=0.07259
+2026-08-29 01:13:21,317 | INFO | select epoch=035 loss=0.679294 validIC=0.05505
+2026-08-29 01:13:21,891 | INFO | select epoch=040 loss=0.674052 validIC=0.03294
+2026-08-29 01:13:22,498 | INFO | select epoch=045 loss=0.665180 validIC=0.03302
+2026-08-29 01:13:23,080 | INFO | select epoch=050 loss=0.653140 validIC=0.02734
+2026-08-29 01:13:23,674 | INFO | select epoch=055 loss=0.640894 validIC=0.04691
+2026-08-29 01:13:24,263 | INFO | select epoch=060 loss=0.623853 validIC=0.04218
+2026-08-29 01:13:24,263 | INFO | select early-stop=60 best_epoch=20 best_valid_ic=0.07903
+2026-08-29 01:13:24,269 | INFO | REFIT year=2021 epochs=20 rows=104,590
+2026-08-29 01:13:29,073 | INFO | TEST year=2021 IC=0.04941 spread=1.5100%
+2026-08-29 01:13:29,188 | INFO | ==========================================================================================
+2026-08-29 01:13:29,188 | INFO | YEAR 2022 train=104,590 valid=11,600 refit=116,740 test=12,300
+2026-08-29 01:13:32,253 | INFO | select epoch=001 loss=0.816240 validIC=0.05763
+2026-08-29 01:13:32,768 | INFO | select epoch=005 loss=0.691421 validIC=0.05708
+2026-08-29 01:13:33,450 | INFO | select epoch=010 loss=0.689154 validIC=0.06127
+2026-08-29 01:13:34,117 | INFO | select epoch=015 loss=0.687313 validIC=0.07283
+2026-08-29 01:13:34,792 | INFO | select epoch=020 loss=0.685065 validIC=0.07153
+2026-08-29 01:13:35,492 | INFO | select epoch=025 loss=0.682629 validIC=0.08149
+2026-08-29 01:13:36,242 | INFO | select epoch=030 loss=0.680027 validIC=0.05234
+2026-08-29 01:13:36,920 | INFO | select epoch=035 loss=0.674150 validIC=0.02883
+2026-08-29 01:13:37,605 | INFO | select epoch=040 loss=0.668857 validIC=0.04248
+2026-08-29 01:13:38,281 | INFO | select epoch=045 loss=0.657620 validIC=0.02427
+2026-08-29 01:13:39,042 | INFO | select epoch=050 loss=0.645490 validIC=0.02194
+2026-08-29 01:13:39,732 | INFO | select epoch=055 loss=0.632639 validIC=0.03434
+2026-08-29 01:13:40,414 | INFO | select epoch=060 loss=0.617455 validIC=0.01921
+2026-08-29 01:13:41,130 | INFO | select epoch=065 loss=0.600468 validIC=0.02680
+2026-08-29 01:13:41,130 | INFO | select early-stop=65 best_epoch=25 best_valid_ic=0.08149
+2026-08-29 01:13:41,137 | INFO | REFIT year=2022 epochs=25 rows=116,740
+2026-08-29 01:13:47,366 | INFO | TEST year=2022 IC=0.03290 spread=0.5362%
+2026-08-29 01:13:47,520 | INFO | ==========================================================================================
+2026-08-29 01:13:47,520 | INFO | YEAR 2023 train=116,740 valid=11,750 refit=129,040 test=11,950
+2026-08-29 01:13:50,876 | INFO | select epoch=001 loss=0.755208 validIC=0.01560
+2026-08-29 01:13:51,592 | INFO | select epoch=005 loss=0.690841 validIC=0.02297
+2026-08-29 01:13:52,391 | INFO | select epoch=010 loss=0.688191 validIC=0.03850
+2026-08-29 01:13:53,236 | INFO | select epoch=015 loss=0.685724 validIC=0.04341
+2026-08-29 01:13:53,993 | INFO | select epoch=020 loss=0.682844 validIC=0.03830
+2026-08-29 01:13:54,746 | INFO | select epoch=025 loss=0.679426 validIC=0.03738
+2026-08-29 01:13:55,536 | INFO | select epoch=030 loss=0.673798 validIC=0.03246
+2026-08-29 01:13:56,315 | INFO | select epoch=035 loss=0.665955 validIC=0.05369
+2026-08-29 01:13:57,057 | INFO | select epoch=040 loss=0.654667 validIC=0.04532
+2026-08-29 01:13:57,663 | INFO | select epoch=045 loss=0.643059 validIC=0.03108
+2026-08-29 01:13:58,266 | INFO | select epoch=050 loss=0.627282 validIC=0.03009
+2026-08-29 01:13:58,878 | INFO | select epoch=055 loss=0.610334 validIC=0.01934
+2026-08-29 01:13:59,492 | INFO | select epoch=060 loss=0.595221 validIC=0.02368
+2026-08-29 01:14:00,106 | INFO | select epoch=065 loss=0.579598 validIC=0.02621
+2026-08-29 01:14:00,792 | INFO | select epoch=070 loss=0.566382 validIC=0.02328
+2026-08-29 01:14:01,468 | INFO | select epoch=075 loss=0.553146 validIC=0.01600
+2026-08-29 01:14:01,468 | INFO | select early-stop=75 best_epoch=35 best_valid_ic=0.05369
+2026-08-29 01:14:01,474 | INFO | REFIT year=2023 epochs=35 rows=129,040
+2026-08-29 01:14:09,633 | INFO | TEST year=2023 IC=0.03062 spread=0.5131%
+2026-08-29 01:14:09,847 | INFO | ==========================================================================================
+2026-08-29 01:14:09,847 | INFO | YEAR 2024 train=129,040 valid=11,400 refit=140,990 test=12,100
+2026-08-29 01:14:13,669 | INFO | select epoch=001 loss=0.792651 validIC=-0.04514
+2026-08-29 01:14:14,236 | INFO | select epoch=005 loss=0.691147 validIC=0.03749
+2026-08-29 01:14:14,909 | INFO | select epoch=010 loss=0.689413 validIC=0.03749
+2026-08-29 01:14:15,559 | INFO | select epoch=015 loss=0.687076 validIC=0.02690
+2026-08-29 01:14:16,206 | INFO | select epoch=020 loss=0.685180 validIC=0.04220
+2026-08-29 01:14:16,965 | INFO | select epoch=025 loss=0.682255 validIC=0.04048
+2026-08-29 01:14:17,765 | INFO | select epoch=030 loss=0.678092 validIC=0.01135
+2026-08-29 01:14:18,420 | INFO | select epoch=035 loss=0.673698 validIC=0.02255
+2026-08-29 01:14:19,074 | INFO | select epoch=040 loss=0.666127 validIC=0.02883
+2026-08-29 01:14:19,719 | INFO | select epoch=045 loss=0.656871 validIC=0.01531
+2026-08-29 01:14:20,360 | INFO | select epoch=050 loss=0.644042 validIC=0.00814
+2026-08-29 01:14:20,993 | INFO | select epoch=055 loss=0.630414 validIC=0.01518
+2026-08-29 01:14:21,639 | INFO | select epoch=060 loss=0.615581 validIC=0.01597
+2026-08-29 01:14:21,639 | INFO | select early-stop=60 best_epoch=20 best_valid_ic=0.04220
+2026-08-29 01:14:21,646 | INFO | REFIT year=2024 epochs=20 rows=140,990
+2026-08-29 01:14:28,465 | INFO | TEST year=2024 IC=-0.00188 spread=0.0128%
+2026-08-29 01:14:28,630 | INFO | ==========================================================================================
+2026-08-29 01:14:28,630 | INFO | YEAR 2025 train=140,990 valid=11,550 refit=153,090 test=12,100
+2026-08-29 01:14:32,447 | INFO | select epoch=001 loss=0.738226 validIC=0.02587
+2026-08-29 01:14:33,096 | INFO | select epoch=005 loss=0.690972 validIC=0.02254
+2026-08-29 01:14:33,797 | INFO | select epoch=010 loss=0.687680 validIC=-0.02153
+2026-08-29 01:14:34,491 | INFO | select epoch=015 loss=0.686000 validIC=-0.00245
+2026-08-29 01:14:35,204 | INFO | select epoch=020 loss=0.683098 validIC=-0.02011
+2026-08-29 01:14:35,927 | INFO | select epoch=025 loss=0.678349 validIC=-0.01370
+2026-08-29 01:14:36,636 | INFO | select epoch=030 loss=0.672389 validIC=-0.02239
+2026-08-29 01:14:37,340 | INFO | select epoch=035 loss=0.665173 validIC=-0.00024
+2026-08-29 01:14:38,117 | INFO | select epoch=040 loss=0.653747 validIC=-0.00183
+2026-08-29 01:14:38,117 | INFO | select early-stop=40 best_epoch=1 best_valid_ic=0.02587
+2026-08-29 01:14:38,124 | INFO | REFIT year=2025 epochs=1 rows=153,090
+2026-08-29 01:14:42,702 | INFO | TEST year=2025 IC=0.08779 spread=1.5276%
+2026-08-29 01:14:42,863 | INFO | ==========================================================================================
+2026-08-29 01:14:42,863 | INFO | YEAR 2026 train=153,090 valid=11,550 refit=165,190 test=7,350
+2026-08-29 01:14:47,207 | INFO | select epoch=001 loss=0.776860 validIC=0.10468
+2026-08-29 01:14:47,917 | INFO | select epoch=005 loss=0.691514 validIC=0.11500
+2026-08-29 01:14:48,750 | INFO | select epoch=010 loss=0.689379 validIC=0.10677
+2026-08-29 01:14:49,752 | INFO | select epoch=015 loss=0.687803 validIC=0.08307
+2026-08-29 01:14:50,534 | INFO | select epoch=020 loss=0.686041 validIC=0.07524
+2026-08-29 01:14:51,302 | INFO | select epoch=025 loss=0.683109 validIC=0.06508
+2026-08-29 01:14:52,097 | INFO | select epoch=030 loss=0.679514 validIC=0.06106
+2026-08-29 01:14:52,856 | INFO | select epoch=035 loss=0.674198 validIC=0.07315
+2026-08-29 01:14:53,616 | INFO | select epoch=040 loss=0.667509 validIC=0.04970
+2026-08-29 01:14:54,361 | INFO | select epoch=045 loss=0.657823 validIC=0.05461
+2026-08-29 01:14:54,362 | INFO | select early-stop=45 best_epoch=5 best_valid_ic=0.11500
+2026-08-29 01:14:54,368 | INFO | REFIT year=2026 epochs=5 rows=165,190
+2026-08-29 01:14:59,900 | INFO | TEST year=2026 IC=0.04581 spread=3.0554%
+2026-08-29 01:14:59,977 | INFO | ==========================================================================================
+2026-08-29 01:14:59,977 | INFO | FINAL SUMMARY
+{
+  "horizon": 10,
+  "seed": 42,
+  "years": 9,
+  "mean_test_ic": 0.038285399566616835,
+  "median_test_ic": 0.03333885573238655,
+  "std_test_ic": 0.025409926348642326,
+  "mean_test_spread": 0.008754956260660945,
+  "mean_best_epoch": 16.22222222222222,
+  "mean_valid_ic": 0.06158789262334858
+}
+2026-08-29 01:14:59,977 | INFO | SAVED: runs/v5_h10_seed42_20260829_011238

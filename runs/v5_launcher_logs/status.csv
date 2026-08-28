@@ -1,0 +1,17 @@
+name,gpu,status
+v5_h10_seed7,0,0
+v5_h10_seed123,1,0
+v5_h10_seed42,1,0
+v5_h10_seed1,0,0
+v5_h10_seed3407,0,0
+v5_h10_seed2026,0,0
+v5_h10_seed8765,1,0
+v5_h10_seed9999,1,0
+v5_h20_seed7,0,0
+v5_h20_seed42,1,0
+v5_h20_seed1,0,0
+v5_h20_seed123,1,0
+v5_h20_seed2026,0,0
+v5_h20_seed3407,0,0
+v5_h20_seed9999,1,0
+v5_h20_seed8765,1,0

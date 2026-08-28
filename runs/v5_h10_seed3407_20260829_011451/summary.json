@@ -1,0 +1,11 @@
+{
+  "horizon": 10,
+  "seed": 3407,
+  "years": 9,
+  "mean_test_ic": 0.03996870720778159,
+  "median_test_ic": 0.03443890569872629,
+  "std_test_ic": 0.024833482808198026,
+  "mean_test_spread": 0.009680362663367375,
+  "mean_best_epoch": 15.666666666666666,
+  "mean_valid_ic": 0.06711818043686911
+}
