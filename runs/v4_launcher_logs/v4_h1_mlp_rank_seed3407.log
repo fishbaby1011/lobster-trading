@@ -1,0 +1,221 @@
+2026-08-28 23:38:54,506 | INFO | Rows=173,340, stocks=50, dates=2012-04-06 00:00:00->2026-08-20 00:00:00
+2026-08-28 23:38:54,526 | INFO | ================================================================================
+2026-08-28 23:38:54,526 | INFO | YEAR 2018 | train=56,609 valid=11,809 test=12,226
+/home/ubuntu/lobster-trading/src/train_cross_section_v4.py:1055: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler()
+2026-08-28 23:38:58,677 | INFO | epoch=001 rankloss=0.835959 validIC=0.03824
+2026-08-28 23:38:59,342 | INFO | epoch=005 rankloss=0.691212 validIC=0.09367
+2026-08-28 23:39:00,152 | INFO | epoch=010 rankloss=0.690307 validIC=0.08789
+2026-08-28 23:39:00,901 | INFO | epoch=015 rankloss=0.689448 validIC=0.08030
+2026-08-28 23:39:01,646 | INFO | epoch=020 rankloss=0.688089 validIC=0.08987
+2026-08-28 23:39:02,426 | INFO | epoch=025 rankloss=0.687586 validIC=0.08677
+2026-08-28 23:39:03,174 | INFO | epoch=030 rankloss=0.686424 validIC=0.08702
+2026-08-28 23:39:03,919 | INFO | epoch=035 rankloss=0.685692 validIC=0.07373
+2026-08-28 23:39:04,656 | INFO | epoch=040 rankloss=0.684662 validIC=0.05637
+2026-08-28 23:39:05,381 | INFO | epoch=045 rankloss=0.683128 validIC=0.05869
+2026-08-28 23:39:05,381 | INFO | early stop @ 45, best=5, best_valid_ic=0.09367
+2026-08-28 23:39:05,657 | INFO | TEST IC=0.07637 | median=0.08485 | IC>0=67.35% | spread=0.2455%
+2026-08-28 23:39:06,023 | INFO | Top-3 | net=-47.31% | 0050=-7.98% | EW=1.67% | alpha=-39.34% | turn=73.09%
+2026-08-28 23:39:06,390 | INFO | Top-5 | net=-52.10% | 0050=-7.98% | EW=1.67% | alpha=-44.12% | turn=69.01%
+2026-08-28 23:39:06,770 | INFO | Top-10 | net=-45.58% | 0050=-7.98% | EW=1.67% | alpha=-37.61% | turn=60.28%
+2026-08-28 23:39:07,147 | INFO | Top-15 | net=-41.43% | 0050=-7.98% | EW=1.67% | alpha=-33.46% | turn=52.57%
+2026-08-28 23:39:07,521 | INFO | Top-20 | net=-37.45% | 0050=-7.98% | EW=1.67% | alpha=-29.47% | turn=43.68%
+2026-08-28 23:39:07,563 | INFO | ================================================================================
+2026-08-28 23:39:07,563 | INFO | YEAR 2019 | train=68,516 valid=12,126 test=12,050
+/home/ubuntu/lobster-trading/src/train_cross_section_v4.py:1055: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler()
+2026-08-28 23:39:10,137 | INFO | epoch=001 rankloss=0.835064 validIC=0.02518
+2026-08-28 23:39:10,798 | INFO | epoch=005 rankloss=0.692116 validIC=0.07227
+2026-08-28 23:39:11,648 | INFO | epoch=010 rankloss=0.690447 validIC=0.07140
+2026-08-28 23:39:12,522 | INFO | epoch=015 rankloss=0.690363 validIC=0.05805
+2026-08-28 23:39:13,397 | INFO | epoch=020 rankloss=0.690547 validIC=0.07233
+2026-08-28 23:39:14,273 | INFO | epoch=025 rankloss=0.689502 validIC=0.07363
+2026-08-28 23:39:15,173 | INFO | epoch=030 rankloss=0.688051 validIC=0.06922
+2026-08-28 23:39:16,033 | INFO | epoch=035 rankloss=0.687779 validIC=0.07336
+2026-08-28 23:39:16,905 | INFO | epoch=040 rankloss=0.687579 validIC=0.07223
+2026-08-28 23:39:17,785 | INFO | epoch=045 rankloss=0.687718 validIC=0.06549
+2026-08-28 23:39:18,656 | INFO | epoch=050 rankloss=0.686074 validIC=0.06575
+2026-08-28 23:39:19,453 | INFO | epoch=055 rankloss=0.685402 validIC=0.06691
+2026-08-28 23:39:20,216 | INFO | epoch=060 rankloss=0.685172 validIC=0.05475
+2026-08-28 23:39:21,009 | INFO | epoch=065 rankloss=0.684871 validIC=0.06195
+2026-08-28 23:39:21,009 | INFO | early stop @ 65, best=25, best_valid_ic=0.07363
+2026-08-28 23:39:21,284 | INFO | TEST IC=0.04859 | median=0.05585 | IC>0=63.07% | spread=0.0961%
+2026-08-28 23:39:21,643 | INFO | Top-3 | net=-24.30% | 0050=38.50% | EW=39.89% | alpha=-62.80% | turn=66.95%
+2026-08-28 23:39:22,002 | INFO | Top-5 | net=-28.56% | 0050=38.50% | EW=39.89% | alpha=-67.06% | turn=64.54%
+2026-08-28 23:39:22,362 | INFO | Top-10 | net=-25.98% | 0050=38.50% | EW=39.89% | alpha=-64.47% | turn=53.53%
+2026-08-28 23:39:22,724 | INFO | Top-15 | net=-17.50% | 0050=38.50% | EW=39.89% | alpha=-56.00% | turn=44.29%
+2026-08-28 23:39:23,087 | INFO | Top-20 | net=-11.94% | 0050=38.50% | EW=39.89% | alpha=-50.44% | turn=37.46%
+2026-08-28 23:39:23,144 | INFO | ================================================================================
+2026-08-28 23:39:23,144 | INFO | YEAR 2020 | train=80,740 valid=11,950 test=12,250
+/home/ubuntu/lobster-trading/src/train_cross_section_v4.py:1055: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler()
+2026-08-28 23:39:26,411 | INFO | epoch=001 rankloss=0.977478 validIC=0.04762
+2026-08-28 23:39:27,159 | INFO | epoch=005 rankloss=0.692134 validIC=0.05384
+2026-08-28 23:39:28,037 | INFO | epoch=010 rankloss=0.690849 validIC=0.05019
+2026-08-28 23:39:28,890 | INFO | epoch=015 rankloss=0.689629 validIC=0.05899
+2026-08-28 23:39:29,822 | INFO | epoch=020 rankloss=0.689129 validIC=0.05579
+2026-08-28 23:39:30,723 | INFO | epoch=025 rankloss=0.688416 validIC=0.05273
+2026-08-28 23:39:31,637 | INFO | epoch=030 rankloss=0.687318 validIC=0.07039
+2026-08-28 23:39:32,573 | INFO | epoch=035 rankloss=0.686358 validIC=0.06619
+2026-08-28 23:39:33,481 | INFO | epoch=040 rankloss=0.685024 validIC=0.06617
+2026-08-28 23:39:34,369 | INFO | epoch=045 rankloss=0.683458 validIC=0.07338
+2026-08-28 23:39:35,316 | INFO | epoch=050 rankloss=0.681293 validIC=0.05922
+2026-08-28 23:39:36,234 | INFO | epoch=055 rankloss=0.678618 validIC=0.05183
+2026-08-28 23:39:37,135 | INFO | epoch=060 rankloss=0.673786 validIC=0.05717
+2026-08-28 23:39:38,010 | INFO | epoch=065 rankloss=0.667218 validIC=0.04676
+2026-08-28 23:39:38,822 | INFO | epoch=070 rankloss=0.658230 validIC=0.04395
+2026-08-28 23:39:39,639 | INFO | epoch=075 rankloss=0.648479 validIC=0.06017
+2026-08-28 23:39:40,476 | INFO | epoch=080 rankloss=0.634848 validIC=0.03923
+2026-08-28 23:39:41,290 | INFO | epoch=085 rankloss=0.622434 validIC=0.03061
+2026-08-28 23:39:41,290 | INFO | early stop @ 85, best=45, best_valid_ic=0.07338
+2026-08-28 23:39:41,563 | INFO | TEST IC=0.05831 | median=0.05907 | IC>0=57.96% | spread=0.2393%
+2026-08-28 23:39:41,925 | INFO | Top-3 | net=-41.18% | 0050=31.40% | EW=29.89% | alpha=-72.58% | turn=66.31%
+2026-08-28 23:39:42,288 | INFO | Top-5 | net=-26.26% | 0050=31.40% | EW=29.89% | alpha=-57.66% | turn=62.28%
+2026-08-28 23:39:42,651 | INFO | Top-10 | net=-17.53% | 0050=31.40% | EW=29.89% | alpha=-48.93% | turn=54.33%
+2026-08-28 23:39:43,016 | INFO | Top-15 | net=-16.26% | 0050=31.40% | EW=29.89% | alpha=-47.67% | turn=48.61%
+2026-08-28 23:39:43,382 | INFO | Top-20 | net=-11.71% | 0050=31.40% | EW=29.89% | alpha=-43.11% | turn=42.16%
+2026-08-28 23:39:43,421 | INFO | ================================================================================
+2026-08-28 23:39:43,421 | INFO | YEAR 2021 | train=92,790 valid=12,150 test=12,150
+/home/ubuntu/lobster-trading/src/train_cross_section_v4.py:1055: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler()
+2026-08-28 23:39:47,079 | INFO | epoch=001 rankloss=0.821054 validIC=0.04477
+2026-08-28 23:39:47,943 | INFO | epoch=005 rankloss=0.691355 validIC=0.06000
+2026-08-28 23:39:48,986 | INFO | epoch=010 rankloss=0.690071 validIC=0.05018
+2026-08-28 23:39:50,019 | INFO | epoch=015 rankloss=0.689147 validIC=0.05302
+2026-08-28 23:39:51,060 | INFO | epoch=020 rankloss=0.688528 validIC=0.03907
+2026-08-28 23:39:52,104 | INFO | epoch=025 rankloss=0.687551 validIC=0.04514
+2026-08-28 23:39:53,161 | INFO | epoch=030 rankloss=0.686290 validIC=0.03783
+2026-08-28 23:39:54,166 | INFO | epoch=035 rankloss=0.684952 validIC=0.02700
+2026-08-28 23:39:55,147 | INFO | epoch=040 rankloss=0.681657 validIC=0.04430
+2026-08-28 23:39:56,014 | INFO | epoch=045 rankloss=0.678543 validIC=0.03850
+2026-08-28 23:39:56,014 | INFO | early stop @ 45, best=5, best_valid_ic=0.06000
+2026-08-28 23:39:56,287 | INFO | TEST IC=0.05295 | median=0.04250 | IC>0=57.61% | spread=0.2469%
+2026-08-28 23:39:56,653 | INFO | Top-3 | net=9.42% | 0050=21.82% | EW=42.32% | alpha=-12.40% | turn=73.08%
+2026-08-28 23:39:57,018 | INFO | Top-5 | net=-9.12% | 0050=21.82% | EW=42.32% | alpha=-30.95% | turn=66.56%
+2026-08-28 23:39:57,385 | INFO | Top-10 | net=-13.97% | 0050=21.82% | EW=42.32% | alpha=-35.79% | turn=58.85%
+2026-08-28 23:39:57,754 | INFO | Top-15 | net=-11.58% | 0050=21.82% | EW=42.32% | alpha=-33.40% | turn=52.03%
+2026-08-28 23:39:58,122 | INFO | Top-20 | net=-12.78% | 0050=21.82% | EW=42.32% | alpha=-34.61% | turn=45.20%
+2026-08-28 23:39:58,196 | INFO | ================================================================================
+2026-08-28 23:39:58,196 | INFO | YEAR 2022 | train=105,040 valid=12,050 test=12,300
+/home/ubuntu/lobster-trading/src/train_cross_section_v4.py:1055: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler()
+2026-08-28 23:40:02,484 | INFO | epoch=001 rankloss=0.762776 validIC=0.03234
+2026-08-28 23:40:03,258 | INFO | epoch=005 rankloss=0.691384 validIC=0.05239
+2026-08-28 23:40:04,214 | INFO | epoch=010 rankloss=0.690168 validIC=0.05040
+2026-08-28 23:40:05,175 | INFO | epoch=015 rankloss=0.689116 validIC=0.05147
+2026-08-28 23:40:06,184 | INFO | epoch=020 rankloss=0.688194 validIC=0.06246
+2026-08-28 23:40:07,256 | INFO | epoch=025 rankloss=0.686999 validIC=0.05397
+2026-08-28 23:40:08,279 | INFO | epoch=030 rankloss=0.685125 validIC=0.07021
+2026-08-28 23:40:09,308 | INFO | epoch=035 rankloss=0.682387 validIC=0.07693
+2026-08-28 23:40:10,361 | INFO | epoch=040 rankloss=0.678551 validIC=0.05138
+2026-08-28 23:40:11,422 | INFO | epoch=045 rankloss=0.672360 validIC=0.06192
+2026-08-28 23:40:12,457 | INFO | epoch=050 rankloss=0.663538 validIC=0.04787
+2026-08-28 23:40:13,502 | INFO | epoch=055 rankloss=0.653517 validIC=0.05006
+2026-08-28 23:40:14,549 | INFO | epoch=060 rankloss=0.640379 validIC=0.03821
+2026-08-28 23:40:15,462 | INFO | epoch=065 rankloss=0.627563 validIC=0.03751
+2026-08-28 23:40:16,359 | INFO | epoch=070 rankloss=0.612051 validIC=0.03657
+2026-08-28 23:40:17,257 | INFO | epoch=075 rankloss=0.599813 validIC=0.03950
+2026-08-28 23:40:17,257 | INFO | early stop @ 75, best=35, best_valid_ic=0.07693
+2026-08-28 23:40:17,530 | INFO | TEST IC=0.03393 | median=0.03581 | IC>0=56.91% | spread=0.0862%
+2026-08-28 23:40:17,892 | INFO | Top-3 | net=-60.95% | 0050=-22.32% | EW=-10.22% | alpha=-38.62% | turn=78.72%
+2026-08-28 23:40:18,254 | INFO | Top-5 | net=-66.29% | 0050=-22.32% | EW=-10.22% | alpha=-43.97% | turn=73.26%
+2026-08-28 23:40:18,621 | INFO | Top-10 | net=-62.50% | 0050=-22.32% | EW=-10.22% | alpha=-40.18% | turn=63.10%
+2026-08-28 23:40:18,989 | INFO | Top-15 | net=-57.43% | 0050=-22.32% | EW=-10.22% | alpha=-35.11% | turn=55.24%
+2026-08-28 23:40:19,357 | INFO | Top-20 | net=-53.13% | 0050=-22.32% | EW=-10.22% | alpha=-30.80% | turn=46.39%
+2026-08-28 23:40:19,434 | INFO | ================================================================================
+2026-08-28 23:40:19,434 | INFO | YEAR 2023 | train=117,190 valid=12,200 test=11,950
+/home/ubuntu/lobster-trading/src/train_cross_section_v4.py:1055: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler()
+2026-08-28 23:40:23,997 | INFO | epoch=001 rankloss=0.793695 validIC=0.03335
+2026-08-28 23:40:24,840 | INFO | epoch=005 rankloss=0.691541 validIC=0.01644
+2026-08-28 23:40:25,918 | INFO | epoch=010 rankloss=0.690602 validIC=0.03008
+2026-08-28 23:40:27,041 | INFO | epoch=015 rankloss=0.689662 validIC=0.02093
+2026-08-28 23:40:28,090 | INFO | epoch=020 rankloss=0.688887 validIC=0.01635
+2026-08-28 23:40:29,188 | INFO | epoch=025 rankloss=0.688122 validIC=0.01580
+2026-08-28 23:40:30,340 | INFO | epoch=030 rankloss=0.686326 validIC=0.01461
+2026-08-28 23:40:31,415 | INFO | epoch=035 rankloss=0.684612 validIC=0.02172
+2026-08-28 23:40:32,348 | INFO | epoch=040 rankloss=0.682218 validIC=0.01942
+2026-08-28 23:40:32,348 | INFO | early stop @ 40, best=1, best_valid_ic=0.03335
+2026-08-28 23:40:32,613 | INFO | TEST IC=0.01335 | median=-0.00101 | IC>0=48.95% | spread=-0.0884%
+2026-08-28 23:40:32,962 | INFO | Top-3 | net=-44.60% | 0050=25.75% | EW=33.46% | alpha=-70.36% | turn=75.02%
+2026-08-28 23:40:33,311 | INFO | Top-5 | net=-42.55% | 0050=25.75% | EW=33.46% | alpha=-68.31% | turn=63.89%
+2026-08-28 23:40:33,663 | INFO | Top-10 | net=-41.71% | 0050=25.75% | EW=33.46% | alpha=-67.46% | turn=51.31%
+2026-08-28 23:40:34,015 | INFO | Top-15 | net=-32.83% | 0050=25.75% | EW=33.46% | alpha=-58.59% | turn=40.59%
+2026-08-28 23:40:34,369 | INFO | Top-20 | net=-26.65% | 0050=25.75% | EW=33.46% | alpha=-52.40% | turn=33.13%
+2026-08-28 23:40:34,451 | INFO | ================================================================================
+2026-08-28 23:40:34,451 | INFO | YEAR 2024 | train=129,490 valid=11,850 test=12,100
+/home/ubuntu/lobster-trading/src/train_cross_section_v4.py:1055: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler()
+2026-08-28 23:40:39,532 | INFO | epoch=001 rankloss=0.786298 validIC=0.03723
+2026-08-28 23:40:40,535 | INFO | epoch=005 rankloss=0.691607 validIC=0.04642
+2026-08-28 23:40:41,687 | INFO | epoch=010 rankloss=0.691291 validIC=0.04840
+2026-08-28 23:40:42,891 | INFO | epoch=015 rankloss=0.689663 validIC=0.04761
+2026-08-28 23:40:44,059 | INFO | epoch=020 rankloss=0.688944 validIC=0.04894
+2026-08-28 23:40:45,277 | INFO | epoch=025 rankloss=0.687379 validIC=0.04130
+2026-08-28 23:40:46,440 | INFO | epoch=030 rankloss=0.686412 validIC=0.04188
+2026-08-28 23:40:47,505 | INFO | epoch=035 rankloss=0.684137 validIC=0.03604
+2026-08-28 23:40:48,584 | INFO | epoch=040 rankloss=0.680631 validIC=0.02466
+2026-08-28 23:40:49,703 | INFO | epoch=045 rankloss=0.677002 validIC=0.03691
+2026-08-28 23:40:50,864 | INFO | epoch=050 rankloss=0.669139 validIC=0.03416
+2026-08-28 23:40:51,987 | INFO | epoch=055 rankloss=0.660758 validIC=0.04830
+2026-08-28 23:40:53,110 | INFO | epoch=060 rankloss=0.648612 validIC=0.03681
+2026-08-28 23:40:53,110 | INFO | early stop @ 60, best=20, best_valid_ic=0.04894
+2026-08-28 23:40:53,384 | INFO | TEST IC=0.03976 | median=0.02800 | IC>0=52.89% | spread=0.1529%
+2026-08-28 23:40:53,738 | INFO | Top-3 | net=-52.95% | 0050=50.78% | EW=13.88% | alpha=-103.73% | turn=63.95%
+2026-08-28 23:40:54,096 | INFO | Top-5 | net=-45.84% | 0050=50.78% | EW=13.88% | alpha=-96.63% | turn=60.12%
+2026-08-28 23:40:54,454 | INFO | Top-10 | net=-34.07% | 0050=50.78% | EW=13.88% | alpha=-84.85% | turn=52.15%
+2026-08-28 23:40:54,815 | INFO | Top-15 | net=-32.31% | 0050=50.78% | EW=13.88% | alpha=-83.09% | turn=45.79%
+2026-08-28 23:40:55,178 | INFO | Top-20 | net=-27.77% | 0050=50.78% | EW=13.88% | alpha=-78.55% | turn=39.75%
+2026-08-28 23:40:55,246 | INFO | ================================================================================
+2026-08-28 23:40:55,246 | INFO | YEAR 2025 | train=141,440 valid=12,000 test=12,100
+/home/ubuntu/lobster-trading/src/train_cross_section_v4.py:1055: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler()
+2026-08-28 23:41:00,673 | INFO | epoch=001 rankloss=0.740661 validIC=0.01240
+2026-08-28 23:41:01,565 | INFO | epoch=005 rankloss=0.691742 validIC=0.05138
+2026-08-28 23:41:02,583 | INFO | epoch=010 rankloss=0.690439 validIC=0.03646
+2026-08-28 23:41:03,603 | INFO | epoch=015 rankloss=0.689590 validIC=0.03574
+2026-08-28 23:41:04,665 | INFO | epoch=020 rankloss=0.688519 validIC=0.02347
+2026-08-28 23:41:05,775 | INFO | epoch=025 rankloss=0.686726 validIC=0.01545
+2026-08-28 23:41:06,913 | INFO | epoch=030 rankloss=0.683981 validIC=0.02252
+2026-08-28 23:41:07,991 | INFO | epoch=035 rankloss=0.680567 validIC=0.02564
+2026-08-28 23:41:09,178 | INFO | epoch=040 rankloss=0.675136 validIC=0.02916
+2026-08-28 23:41:10,250 | INFO | epoch=045 rankloss=0.667810 validIC=0.00272
+2026-08-28 23:41:10,251 | INFO | early stop @ 45, best=5, best_valid_ic=0.05138
+2026-08-28 23:41:10,529 | INFO | TEST IC=0.02067 | median=0.01330 | IC>0=51.24% | spread=0.1047%
+2026-08-28 23:41:10,899 | INFO | Top-3 | net=-41.64% | 0050=41.89% | EW=25.89% | alpha=-83.53% | turn=67.25%
+2026-08-28 23:41:11,256 | INFO | Top-5 | net=-31.20% | 0050=41.89% | EW=25.89% | alpha=-73.10% | turn=60.35%
+2026-08-28 23:41:11,615 | INFO | Top-10 | net=-27.15% | 0050=41.89% | EW=25.89% | alpha=-69.04% | turn=52.95%
+2026-08-28 23:41:11,987 | INFO | Top-15 | net=-20.09% | 0050=41.89% | EW=25.89% | alpha=-61.98% | turn=45.56%
+2026-08-28 23:41:12,347 | INFO | Top-20 | net=-16.62% | 0050=41.89% | EW=25.89% | alpha=-58.51% | turn=39.16%
+2026-08-28 23:41:12,439 | INFO | ================================================================================
+2026-08-28 23:41:12,439 | INFO | YEAR 2026 | train=153,540 valid=12,000 test=7,600
+/home/ubuntu/lobster-trading/src/train_cross_section_v4.py:1055: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler()
+2026-08-28 23:41:18,375 | INFO | epoch=001 rankloss=0.792624 validIC=0.02135
+2026-08-28 23:41:19,294 | INFO | epoch=005 rankloss=0.691803 validIC=0.02420
+2026-08-28 23:41:20,377 | INFO | epoch=010 rankloss=0.691132 validIC=0.02046
+2026-08-28 23:41:21,609 | INFO | epoch=015 rankloss=0.690133 validIC=0.01721
+2026-08-28 23:41:22,958 | INFO | epoch=020 rankloss=0.689310 validIC=0.00889
+2026-08-28 23:41:24,273 | INFO | epoch=025 rankloss=0.687871 validIC=0.00227
+2026-08-28 23:41:25,429 | INFO | epoch=030 rankloss=0.686531 validIC=0.02289
+2026-08-28 23:41:26,636 | INFO | epoch=035 rankloss=0.684915 validIC=-0.00496
+2026-08-28 23:41:27,911 | INFO | epoch=040 rankloss=0.681343 validIC=-0.00107
+2026-08-28 23:41:29,192 | INFO | epoch=045 rankloss=0.677696 validIC=-0.00729
+2026-08-28 23:41:29,192 | INFO | early stop @ 45, best=5, best_valid_ic=0.02420
+2026-08-28 23:41:29,369 | INFO | TEST IC=0.03154 | median=0.04600 | IC>0=58.55% | spread=0.1229%
+2026-08-28 23:41:29,595 | INFO | Top-3 | net=60.83% | 0050=57.39% | EW=60.68% | alpha=3.44% | turn=81.43%
+2026-08-28 23:41:29,821 | INFO | Top-5 | net=16.94% | 0050=57.39% | EW=60.68% | alpha=-40.45% | turn=73.04%
+2026-08-28 23:41:30,047 | INFO | Top-10 | net=15.31% | 0050=57.39% | EW=60.68% | alpha=-42.08% | turn=61.73%
+2026-08-28 23:41:30,275 | INFO | Top-15 | net=25.92% | 0050=57.39% | EW=60.68% | alpha=-31.47% | turn=53.59%
+2026-08-28 23:41:30,504 | INFO | Top-20 | net=17.68% | 0050=57.39% | EW=60.68% | alpha=-39.72% | turn=44.94%
+2026-08-28 23:41:30,771 | INFO | ================================================================================
+2026-08-28 23:41:30,772 | INFO | FINAL SUMMARY
+2026-08-28 23:41:30,772 | INFO | ================================================================================
+2026-08-28 23:41:30,776 | INFO | 
+   model  seed  top_k  mean_ic  median_year_ic  mean_spread  positive_alpha_years  years  mean_alpha_vs_0050  mean_alpha_vs_equal_weight  median_alpha_vs_0050  mean_turnover  mean_active_sharpe  mean_best_epoch  mean_valid_ic
+mlp_rank  3407      3 0.041719        0.039762      0.00134                     1      9           -0.533247                   -0.533493             -0.627966       0.717544           -2.533968        16.222222       0.059498
+mlp_rank  3407      5 0.041719        0.039762      0.00134                     0      9           -0.580261                   -0.580507             -0.576619       0.658954           -3.356840        16.222222       0.059498
+mlp_rank  3407     10 0.041719        0.039762      0.00134                     0      9           -0.544914                   -0.545160             -0.489334       0.564692           -4.038419        16.222222       0.059498
+mlp_rank  3407     15 0.041719        0.039762      0.00134                     0      9           -0.489738                   -0.489984             -0.476657       0.486967           -3.964295        16.222222       0.059498
+mlp_rank  3407     20 0.041719        0.039762      0.00134                     0      9           -0.464014                   -0.464260             -0.431128       0.413201           -3.979058        16.222222       0.059498
+2026-08-28 23:41:30,776 | INFO | SAVED: runs/v4_h1_mlp_rank_seed3407_20260828_233853
