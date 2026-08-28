@@ -1,0 +1,192 @@
+2026-08-28 21:38:19,762 | INFO | Rows: 173,340
+2026-08-28 21:38:19,768 | INFO | Stocks: 50
+2026-08-28 21:38:19,769 | INFO | Dates: 2012-04-06 00:00:00 -> 2026-08-20 00:00:00
+2026-08-28 21:38:19,792 | INFO | ======================================================================
+2026-08-28 21:38:19,792 | INFO | YEAR 2018
+2026-08-28 21:38:19,792 | INFO | Train: 68,320
+2026-08-28 21:38:19,792 | INFO | Test : 12,226
+/home/ubuntu/lobster-trading/src/train_cross_section_v2.py:486: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler(
+2026-08-28 21:38:26,148 | INFO | MLP epoch 1/120 loss=0.998935
+2026-08-28 21:38:37,093 | INFO | MLP epoch 20/120 loss=0.194453
+2026-08-28 21:38:48,563 | INFO | MLP epoch 40/120 loss=0.192583
+2026-08-28 21:38:59,841 | INFO | MLP epoch 60/120 loss=0.190512
+2026-08-28 21:39:11,180 | INFO | MLP epoch 80/120 loss=0.186955
+2026-08-28 21:39:22,268 | INFO | MLP epoch 100/120 loss=0.179596
+2026-08-28 21:39:33,664 | INFO | MLP epoch 120/120 loss=0.169528
+2026-08-28 21:39:34,093 | INFO | Mean IC: 0.0256
+2026-08-28 21:39:34,093 | INFO | Median IC: 0.0192
+2026-08-28 21:39:34,093 | INFO | IC > 0 days: 53.88%
+2026-08-28 21:39:34,093 | INFO | Mean Top-Bottom Spread: 0.1976%
+2026-08-28 21:39:34,190 | INFO | Top-3 | Net=-18.35% | 0050=-7.98% | EW=1.43% | Alpha0050=-10.37% | Turnover=63.26%
+2026-08-28 21:39:34,285 | INFO | Top-5 | Net=-18.37% | 0050=-7.98% | EW=1.43% | Alpha0050=-10.39% | Turnover=68.15%
+2026-08-28 21:39:34,380 | INFO | Top-10 | Net=-9.17% | 0050=-7.98% | EW=1.43% | Alpha0050=-1.19% | Turnover=67.37%
+2026-08-28 21:39:34,414 | INFO | ======================================================================
+2026-08-28 21:39:34,414 | INFO | YEAR 2019
+2026-08-28 21:39:34,414 | INFO | Train: 80,540
+2026-08-28 21:39:34,414 | INFO | Test : 12,050
+/home/ubuntu/lobster-trading/src/train_cross_section_v2.py:486: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler(
+2026-08-28 21:39:35,269 | INFO | MLP epoch 1/120 loss=0.934541
+2026-08-28 21:39:50,821 | INFO | MLP epoch 20/120 loss=0.206546
+2026-08-28 21:40:07,091 | INFO | MLP epoch 40/120 loss=0.204420
+2026-08-28 21:40:23,929 | INFO | MLP epoch 60/120 loss=0.201362
+2026-08-28 21:40:40,698 | INFO | MLP epoch 80/120 loss=0.194772
+2026-08-28 21:40:57,328 | INFO | MLP epoch 100/120 loss=0.184160
+2026-08-28 21:41:13,989 | INFO | MLP epoch 120/120 loss=0.170775
+2026-08-28 21:41:14,361 | INFO | Mean IC: 0.0204
+2026-08-28 21:41:14,361 | INFO | Median IC: 0.0139
+2026-08-28 21:41:14,361 | INFO | IC > 0 days: 53.94%
+2026-08-28 21:41:14,362 | INFO | Mean Top-Bottom Spread: 0.1057%
+2026-08-28 21:41:14,458 | INFO | Top-3 | Net=51.63% | 0050=35.68% | EW=36.46% | Alpha0050=15.95% | Turnover=75.66%
+2026-08-28 21:41:14,553 | INFO | Top-5 | Net=39.25% | 0050=35.68% | EW=36.46% | Alpha0050=3.57% | Turnover=71.82%
+2026-08-28 21:41:14,648 | INFO | Top-10 | Net=26.29% | 0050=35.68% | EW=36.46% | Alpha0050=-9.39% | Turnover=67.92%
+2026-08-28 21:41:14,681 | INFO | ======================================================================
+2026-08-28 21:41:14,682 | INFO | YEAR 2020
+2026-08-28 21:41:14,682 | INFO | Train: 92,590
+2026-08-28 21:41:14,682 | INFO | Test : 12,250
+/home/ubuntu/lobster-trading/src/train_cross_section_v2.py:486: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler(
+2026-08-28 21:41:15,633 | INFO | MLP epoch 1/120 loss=0.846671
+2026-08-28 21:41:32,797 | INFO | MLP epoch 20/120 loss=0.213969
+2026-08-28 21:41:50,575 | INFO | MLP epoch 40/120 loss=0.211877
+2026-08-28 21:42:08,615 | INFO | MLP epoch 60/120 loss=0.207847
+2026-08-28 21:42:25,440 | INFO | MLP epoch 80/120 loss=0.201056
+2026-08-28 21:42:42,803 | INFO | MLP epoch 100/120 loss=0.187374
+2026-08-28 21:43:00,619 | INFO | MLP epoch 120/120 loss=0.173092
+2026-08-28 21:43:00,986 | INFO | Mean IC: 0.0244
+2026-08-28 21:43:00,986 | INFO | Median IC: 0.0203
+2026-08-28 21:43:00,986 | INFO | IC > 0 days: 54.69%
+2026-08-28 21:43:00,986 | INFO | Mean Top-Bottom Spread: 0.3551%
+2026-08-28 21:43:01,080 | INFO | Top-3 | Net=90.39% | 0050=31.40% | EW=29.48% | Alpha0050=58.99% | Turnover=78.92%
+2026-08-28 21:43:01,173 | INFO | Top-5 | Net=89.04% | 0050=31.40% | EW=29.48% | Alpha0050=57.64% | Turnover=75.58%
+2026-08-28 21:43:01,266 | INFO | Top-10 | Net=57.26% | 0050=31.40% | EW=29.48% | Alpha0050=25.85% | Turnover=69.17%
+2026-08-28 21:43:01,301 | INFO | ======================================================================
+2026-08-28 21:43:01,301 | INFO | YEAR 2021
+2026-08-28 21:43:01,301 | INFO | Train: 104,840
+2026-08-28 21:43:01,301 | INFO | Test : 12,150
+/home/ubuntu/lobster-trading/src/train_cross_section_v2.py:486: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler(
+2026-08-28 21:43:02,292 | INFO | MLP epoch 1/120 loss=0.776683
+2026-08-28 21:43:19,465 | INFO | MLP epoch 20/120 loss=0.225489
+2026-08-28 21:43:38,090 | INFO | MLP epoch 40/120 loss=0.222346
+2026-08-28 21:43:57,061 | INFO | MLP epoch 60/120 loss=0.216774
+2026-08-28 21:44:16,007 | INFO | MLP epoch 80/120 loss=0.205690
+2026-08-28 21:44:34,530 | INFO | MLP epoch 100/120 loss=0.189838
+2026-08-28 21:44:52,678 | INFO | MLP epoch 120/120 loss=0.173475
+2026-08-28 21:44:53,046 | INFO | Mean IC: 0.0467
+2026-08-28 21:44:53,046 | INFO | Median IC: 0.0560
+2026-08-28 21:44:53,046 | INFO | IC > 0 days: 60.08%
+2026-08-28 21:44:53,046 | INFO | Mean Top-Bottom Spread: 0.5617%
+2026-08-28 21:44:53,142 | INFO | Top-3 | Net=50.12% | 0050=22.32% | EW=41.56% | Alpha0050=27.80% | Turnover=82.24%
+2026-08-28 21:44:53,237 | INFO | Top-5 | Net=37.23% | 0050=22.32% | EW=41.56% | Alpha0050=14.91% | Turnover=78.32%
+2026-08-28 21:44:53,332 | INFO | Top-10 | Net=54.53% | 0050=22.32% | EW=41.56% | Alpha0050=32.21% | Turnover=68.88%
+2026-08-28 21:44:53,360 | INFO | ======================================================================
+2026-08-28 21:44:53,360 | INFO | YEAR 2022
+2026-08-28 21:44:53,360 | INFO | Train: 116,990
+2026-08-28 21:44:53,360 | INFO | Test : 12,300
+/home/ubuntu/lobster-trading/src/train_cross_section_v2.py:486: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler(
+2026-08-28 21:44:54,375 | INFO | MLP epoch 1/120 loss=0.720941
+2026-08-28 21:45:13,671 | INFO | MLP epoch 20/120 loss=0.235307
+2026-08-28 21:45:33,564 | INFO | MLP epoch 40/120 loss=0.230211
+2026-08-28 21:45:52,791 | INFO | MLP epoch 60/120 loss=0.221818
+2026-08-28 21:46:12,302 | INFO | MLP epoch 80/120 loss=0.206438
+2026-08-28 21:46:31,210 | INFO | MLP epoch 100/120 loss=0.188299
+2026-08-28 21:46:51,231 | INFO | MLP epoch 120/120 loss=0.171402
+2026-08-28 21:46:51,614 | INFO | Mean IC: 0.0284
+2026-08-28 21:46:51,615 | INFO | Median IC: 0.0321
+2026-08-28 21:46:51,615 | INFO | IC > 0 days: 57.72%
+2026-08-28 21:46:51,615 | INFO | Mean Top-Bottom Spread: 0.3168%
+2026-08-28 21:46:51,714 | INFO | Top-3 | Net=-37.42% | 0050=-18.34% | EW=-7.15% | Alpha0050=-19.08% | Turnover=79.87%
+2026-08-28 21:46:51,811 | INFO | Top-5 | Net=-34.27% | 0050=-18.34% | EW=-7.15% | Alpha0050=-15.92% | Turnover=77.37%
+2026-08-28 21:46:51,908 | INFO | Top-10 | Net=-29.50% | 0050=-18.34% | EW=-7.15% | Alpha0050=-11.15% | Turnover=71.77%
+2026-08-28 21:46:51,943 | INFO | ======================================================================
+2026-08-28 21:46:51,943 | INFO | YEAR 2023
+2026-08-28 21:46:51,943 | INFO | Train: 129,290
+2026-08-28 21:46:51,943 | INFO | Test : 11,950
+/home/ubuntu/lobster-trading/src/train_cross_section_v2.py:486: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler(
+2026-08-28 21:46:53,232 | INFO | MLP epoch 1/120 loss=0.682257
+2026-08-28 21:47:16,948 | INFO | MLP epoch 20/120 loss=0.244271
+2026-08-28 21:47:42,352 | INFO | MLP epoch 40/120 loss=0.238476
+2026-08-28 21:48:06,322 | INFO | MLP epoch 60/120 loss=0.227634
+2026-08-28 21:48:30,839 | INFO | MLP epoch 80/120 loss=0.207983
+2026-08-28 21:48:55,238 | INFO | MLP epoch 100/120 loss=0.186866
+2026-08-28 21:49:19,408 | INFO | MLP epoch 120/120 loss=0.169883
+2026-08-28 21:49:19,769 | INFO | Mean IC: 0.0178
+2026-08-28 21:49:19,769 | INFO | Median IC: 0.0181
+2026-08-28 21:49:19,769 | INFO | IC > 0 days: 54.39%
+2026-08-28 21:49:19,770 | INFO | Mean Top-Bottom Spread: 0.0996%
+2026-08-28 21:49:19,864 | INFO | Top-3 | Net=58.23% | 0050=24.67% | EW=33.05% | Alpha0050=33.56% | Turnover=75.80%
+2026-08-28 21:49:19,956 | INFO | Top-5 | Net=44.32% | 0050=24.67% | EW=33.05% | Alpha0050=19.65% | Turnover=73.59%
+2026-08-28 21:49:20,049 | INFO | Top-10 | Net=27.36% | 0050=24.67% | EW=33.05% | Alpha0050=2.69% | Turnover=69.54%
+2026-08-28 21:49:20,081 | INFO | ======================================================================
+2026-08-28 21:49:20,081 | INFO | YEAR 2024
+2026-08-28 21:49:20,081 | INFO | Train: 141,240
+2026-08-28 21:49:20,081 | INFO | Test : 12,100
+/home/ubuntu/lobster-trading/src/train_cross_section_v2.py:486: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler(
+2026-08-28 21:49:21,389 | INFO | MLP epoch 1/120 loss=0.624444
+2026-08-28 21:49:45,505 | INFO | MLP epoch 20/120 loss=0.248808
+2026-08-28 21:50:12,444 | INFO | MLP epoch 40/120 loss=0.243096
+2026-08-28 21:50:37,569 | INFO | MLP epoch 60/120 loss=0.231760
+2026-08-28 21:51:02,949 | INFO | MLP epoch 80/120 loss=0.213246
+2026-08-28 21:51:27,568 | INFO | MLP epoch 100/120 loss=0.193470
+2026-08-28 21:51:52,197 | INFO | MLP epoch 120/120 loss=0.175818
+2026-08-28 21:51:52,565 | INFO | Mean IC: 0.0098
+2026-08-28 21:51:52,565 | INFO | Median IC: 0.0165
+2026-08-28 21:51:52,565 | INFO | IC > 0 days: 54.55%
+2026-08-28 21:51:52,565 | INFO | Mean Top-Bottom Spread: 0.1339%
+2026-08-28 21:51:52,658 | INFO | Top-3 | Net=-23.24% | 0050=55.90% | EW=14.85% | Alpha0050=-79.14% | Turnover=83.07%
+2026-08-28 21:51:52,751 | INFO | Top-5 | Net=-19.88% | 0050=55.90% | EW=14.85% | Alpha0050=-75.78% | Turnover=78.60%
+2026-08-28 21:51:52,843 | INFO | Top-10 | Net=-9.85% | 0050=55.90% | EW=14.85% | Alpha0050=-65.74% | Turnover=72.60%
+2026-08-28 21:51:52,883 | INFO | ======================================================================
+2026-08-28 21:51:52,883 | INFO | YEAR 2025
+2026-08-28 21:51:52,883 | INFO | Train: 153,340
+2026-08-28 21:51:52,883 | INFO | Test : 12,100
+/home/ubuntu/lobster-trading/src/train_cross_section_v2.py:486: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler(
+2026-08-28 21:51:54,323 | INFO | MLP epoch 1/120 loss=0.638908
+2026-08-28 21:52:18,674 | INFO | MLP epoch 20/120 loss=0.256751
+2026-08-28 21:52:44,130 | INFO | MLP epoch 40/120 loss=0.250528
+2026-08-28 21:53:10,237 | INFO | MLP epoch 60/120 loss=0.237889
+2026-08-28 21:53:36,198 | INFO | MLP epoch 80/120 loss=0.217227
+2026-08-28 21:54:01,803 | INFO | MLP epoch 100/120 loss=0.195471
+2026-08-28 21:54:27,092 | INFO | MLP epoch 120/120 loss=0.177395
+2026-08-28 21:54:27,458 | INFO | Mean IC: 0.0021
+2026-08-28 21:54:27,458 | INFO | Median IC: -0.0068
+2026-08-28 21:54:27,458 | INFO | IC > 0 days: 47.93%
+2026-08-28 21:54:27,459 | INFO | Mean Top-Bottom Spread: 0.1950%
+2026-08-28 21:54:27,552 | INFO | Top-3 | Net=112.63% | 0050=45.12% | EW=28.26% | Alpha0050=67.50% | Turnover=76.87%
+2026-08-28 21:54:27,644 | INFO | Top-5 | Net=53.71% | 0050=45.12% | EW=28.26% | Alpha0050=8.58% | Turnover=75.35%
+2026-08-28 21:54:27,737 | INFO | Top-10 | Net=27.37% | 0050=45.12% | EW=28.26% | Alpha0050=-17.75% | Turnover=70.46%
+2026-08-28 21:54:27,777 | INFO | ======================================================================
+2026-08-28 21:54:27,777 | INFO | YEAR 2026
+2026-08-28 21:54:27,777 | INFO | Train: 165,440
+2026-08-28 21:54:27,777 | INFO | Test : 7,600
+/home/ubuntu/lobster-trading/src/train_cross_section_v2.py:486: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  torch.cuda.amp.GradScaler(
+2026-08-28 21:54:29,247 | INFO | MLP epoch 1/120 loss=0.574963
+2026-08-28 21:54:55,078 | INFO | MLP epoch 20/120 loss=0.262421
+2026-08-28 21:55:20,966 | INFO | MLP epoch 40/120 loss=0.256391
+2026-08-28 21:55:48,070 | INFO | MLP epoch 60/120 loss=0.241816
+2026-08-28 21:56:14,608 | INFO | MLP epoch 80/120 loss=0.221418
+2026-08-28 21:56:41,615 | INFO | MLP epoch 100/120 loss=0.200580
+2026-08-28 21:57:09,004 | INFO | MLP epoch 120/120 loss=0.183739
+2026-08-28 21:57:09,258 | INFO | Mean IC: -0.0006
+2026-08-28 21:57:09,258 | INFO | Median IC: -0.0047
+2026-08-28 21:57:09,258 | INFO | IC > 0 days: 47.37%
+2026-08-28 21:57:09,258 | INFO | Mean Top-Bottom Spread: 0.2481%
+2026-08-28 21:57:09,319 | INFO | Top-3 | Net=183.60% | 0050=55.96% | EW=57.91% | Alpha0050=127.64% | Turnover=81.90%
+2026-08-28 21:57:09,378 | INFO | Top-5 | Net=154.32% | 0050=55.96% | EW=57.91% | Alpha0050=98.36% | Turnover=73.41%
+2026-08-28 21:57:09,437 | INFO | Top-10 | Net=74.26% | 0050=55.96% | EW=57.91% | Alpha0050=18.30% | Turnover=66.32%
+2026-08-28 21:57:09,551 | INFO | ======================================================================
+2026-08-28 21:57:09,551 | INFO | FINAL SUMMARY
+2026-08-28 21:57:09,551 | INFO | ======================================================================
+2026-08-28 21:57:09,555 | INFO | 
+model  top_k  mean_ic  mean_top_bottom_spread  positive_alpha_years  years  mean_alpha_vs_0050  mean_alpha_vs_equal_weight  mean_turnover  mean_active_sharpe
+  mlp      3 0.019384                0.002459                     6      9            0.247619                    0.257497       0.775097            0.475046
+  mlp      5 0.019384                0.002459                     6      9            0.111787                    0.121665       0.746891            0.172873
+  mlp     10 0.019384                0.002459                     4      9           -0.029084                   -0.019205       0.693385           -0.204903
+2026-08-28 21:57:09,878 | INFO | Saved: runs/v2_mlp_gpu1_20260828_213819
