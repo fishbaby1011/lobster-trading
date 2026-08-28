@@ -147,15 +147,25 @@ def shell(cmd):
 
 
 def seed_all(seed):
-    random.seed(seed)
-    np.random.seed(seed)
+    # NumPy legacy RNG only accepts 32-bit seeds.
+    #
+    # fold_seed can exceed 2**32 because it is constructed as:
+    #
+    #     experiment_seed * 100000 + year
+    #
+    # Normalize deterministically so large overnight seeds
+    # remain reproducible across Python / NumPy / PyTorch.
+    seed32 = int(seed) % (2 ** 32)
+
+    random.seed(seed32)
+    np.random.seed(seed32)
 
     import torch
 
-    torch.manual_seed(seed)
+    torch.manual_seed(seed32)
 
     if torch.cuda.is_available():
-        torch.cuda.manual_seed_all(seed)
+        torch.cuda.manual_seed_all(seed32)
 
 
 with open(
