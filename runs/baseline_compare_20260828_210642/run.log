@@ -1,0 +1,392 @@
+======================================================================
+LOBSTER TRADING BASELINE RERUN
+======================================================================
+
+Start time: 2026-08-28T21:06:42+08:00
+Run dir:    runs/baseline_compare_20260828_210642
+
+======================================================================
+SYSTEM
+======================================================================
+Linux vm1765654011552-5649720-iaas 5.15.0-164-generic #174-Ubuntu SMP Fri Nov 14 20:25:16 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+
+--- Python ---
+Python 3.10.12
+
+--- Git ---
+fa7e296
+?? runs/
+?? scripts/
+?? src/train_cross_section.py
+
+--- NVIDIA ---
+Fri Aug 28 21:06:42 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.274.02             Driver Version: 535.274.02   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  Tesla V100-SXM2-32GB           Off | 00000000:00:05.0 Off |                    0 |
+| N/A   27C    P0              39W / 300W |      0MiB / 32768MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   1  Tesla V100-SXM2-32GB           Off | 00000000:00:06.0 Off |                    0 |
+| N/A   26C    P0              39W / 300W |      0MiB / 32768MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+
+--- Disk ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/vda1        94G   44G   47G  49% /
+
+--- Memory ---
+               total        used        free      shared  buff/cache   available
+Mem:           164Gi       518Mi       152Gi       2.0Mi        11Gi       162Gi
+Swap:             0B          0B          0B
+
+
+######################################################################
+# BASELINE V1
+######################################################################
+
+/home/ubuntu/lobster-trading/src/baseline.py:161: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  .pct_change(1)
+/home/ubuntu/lobster-trading/src/baseline.py:166: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  .pct_change(5)
+Downloading 2330.TW ...
+Downloading 0050.TW ...
+
+============================================================
+DATASET
+============================================================
+Samples: 3511
+
+Target distribution:
+target
+1    0.549131
+0    0.450869
+Name: proportion, dtype: float64
+
+============================================================
+TIME SPLIT
+============================================================
+Train: 2012-04-06 00:00:00 -> 2023-12-29 00:00:00 2873
+Valid: 2024-01-02 00:00:00 -> 2025-12-31 00:00:00 484
+Test : 2026-01-02 00:00:00 -> 2026-08-21 00:00:00 154
+
+============================================================
+LOGISTIC REGRESSION
+============================================================
+Accuracy: 0.526
+ROC-AUC: 0.6404
+
+============================================================
+XGBOOST
+============================================================
+Accuracy: 0.5455
+ROC-AUC: 0.4962
+
+              precision    recall  f1-score   support
+
+           0     0.4182    0.3770    0.3966        61
+           1     0.6162    0.6559    0.6354        93
+
+    accuracy                         0.5455       154
+   macro avg     0.5172    0.5165    0.5160       154
+weighted avg     0.5377    0.5455    0.5408       154
+
+
+============================================================
+2026 OUT-OF-SAMPLE BACKTEST
+============================================================
+Strategy Return: 10.88%
+2330 Buy/Hold: 52.32%
+Max Drawdown: -8.33%
+Trades: 17
+Exposure: 54.84%
+
+============================================================
+SAVED
+============================================================
+data/2330_dataset.parquet
+results/baseline_backtest.csv
+models/xgb_2330.json
+	Command being timed: "python src/baseline.py"
+	User time (seconds): 9.91
+	System time (seconds): 0.29
+	Percent of CPU this job got: 407%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.50
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 352276
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 44
+	Minor (reclaiming a frame) page faults: 40084
+	Voluntary context switches: 741
+	Involuntary context switches: 86
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 3376
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+Baseline V1 exit code: 0
+
+
+######################################################################
+# BASELINE V2
+######################################################################
+
+/home/ubuntu/lobster-trading/src/baseline_v2.py:289: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  .pct_change(1)
+/home/ubuntu/lobster-trading/src/baseline_v2.py:294: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  .pct_change(5)
+/home/ubuntu/lobster-trading/src/baseline_v2.py:299: FutureWarning: The default fill_method='pad' in Series.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.
+  .pct_change(20)
+Downloading 2330.TW ...
+Downloading 0050.TW ...
+
+======================================================================
+DATASET
+======================================================================
+Samples: 3509
+Features: 18
+
+Target:
+1 = 2330 outperforms 0050
+0 = 0050 outperforms / tie
+
+target
+1    0.537475
+0    0.462525
+Name: proportion, dtype: float64
+
+======================================================================
+MAIN TIME SPLIT
+======================================================================
+Train: 2012-04-06 00:00:00 -> 2023-12-29 00:00:00 2873
+Valid: 2024-01-02 00:00:00 -> 2025-12-31 00:00:00 484
+Test: 2026-01-02 00:00:00 -> 2026-08-20 00:00:00 152
+
+======================================================================
+DUMMY BASELINE
+======================================================================
+Test positive rate: 0.4803
+Always-2330 Accuracy: 0.4803
+Always-2330 Balanced Accuracy: 0.5
+
+======================================================================
+LOGISTIC PLAIN @ 0.50
+======================================================================
+Threshold: 0.5
+Accuracy: 0.5329
+Balanced Accuracy: 0.5262
+ROC-AUC: 0.5944
+
+              precision    recall  f1-score   support
+
+           0     0.5392    0.6962    0.6077        79
+           1     0.5200    0.3562    0.4228        73
+
+    accuracy                         0.5329       152
+   macro avg     0.5296    0.5262    0.5152       152
+weighted avg     0.5300    0.5329    0.5189       152
+
+
+======================================================================
+LOGISTIC BALANCED @ 0.50
+======================================================================
+Threshold: 0.5
+Accuracy: 0.5197
+Balanced Accuracy: 0.5062
+ROC-AUC: 0.5948
+
+              precision    recall  f1-score   support
+
+           0     0.5234    0.8481    0.6473        79
+           1     0.5000    0.1644    0.2474        73
+
+    accuracy                         0.5197       152
+   macro avg     0.5117    0.5062    0.4474       152
+weighted avg     0.5122    0.5197    0.4553       152
+
+
+======================================================================
+XGBOOST @ 0.50
+======================================================================
+Threshold: 0.5
+Accuracy: 0.4868
+Balanced Accuracy: 0.4918
+ROC-AUC: 0.4824
+
+              precision    recall  f1-score   support
+
+           0     0.5088    0.3671    0.4265        79
+           1     0.4737    0.6164    0.5357        73
+
+    accuracy                         0.4868       152
+   macro avg     0.4912    0.4918    0.4811       152
+weighted avg     0.4919    0.4868    0.4789       152
+
+
+======================================================================
+VALIDATION THRESHOLD SELECTION
+======================================================================
+Selected threshold: 0.5
+Validation Balanced Accuracy: 0.5687
+Validation Accuracy: 0.5496
+Validation Stock Exposure: 39.88%
+
+======================================================================
+LOGISTIC PLAIN - VALIDATION SELECTED THRESHOLD
+======================================================================
+Threshold: 0.5
+Accuracy: 0.5329
+Balanced Accuracy: 0.5262
+ROC-AUC: 0.5944
+
+              precision    recall  f1-score   support
+
+           0     0.5392    0.6962    0.6077        79
+           1     0.5200    0.3562    0.4228        73
+
+    accuracy                         0.5329       152
+   macro avg     0.5296    0.5262    0.5152       152
+weighted avg     0.5300    0.5329    0.5189       152
+
+
+======================================================================
+2026 OUT-OF-SAMPLE ROTATION BACKTEST
+======================================================================
+Threshold: 0.5
+Strategy Return: 52.00%
+2330 Return: 46.36%
+0050 Return: 55.74%
+Alpha vs 0050: -3.74%
+Alpha vs 2330: 5.64%
+Max Drawdown: -11.15%
+Active Sharpe: -0.7139
+2330 Exposure: 29.03%
+Switches: 14
+Periods: 31
+
+
+######################################################################
+WALK-FORWARD TEST
+######################################################################
+
+2018: AUC=0.5296  BalAcc=0.5193  Threshold=0.61  Strategy=-18.97%  0050=-8.11%  Alpha=-10.86%
+
+2019: AUC=0.6274  BalAcc=0.5526  Threshold=0.56  Strategy=43.49%  0050=35.49%  Alpha=8.01%
+
+2020: AUC=0.5625  BalAcc=0.5101  Threshold=0.49  Strategy=33.15%  0050=31.21%  Alpha=1.94%
+
+2021: AUC=0.5726  BalAcc=0.5348  Threshold=0.63  Strategy=15.90%  0050=22.14%  Alpha=-6.24%
+
+2022: AUC=0.5139  BalAcc=0.5198  Threshold=0.56  Strategy=-20.43%  0050=-18.46%  Alpha=-1.97%
+
+2023: AUC=0.5219  BalAcc=0.5257  Threshold=0.65  Strategy=23.15%  0050=24.49%  Alpha=-1.34%
+
+2024: AUC=0.6338  BalAcc=0.5395  Threshold=0.58  Strategy=51.72%  0050=55.68%  Alpha=-3.96%
+
+2025: AUC=0.5173  BalAcc=0.5275  Threshold=0.50  Strategy=37.57%  0050=44.92%  Alpha=-7.35%
+
+2026: AUC=0.5868  BalAcc=0.5125  Threshold=0.52  Strategy=52.00%  0050=55.74%  Alpha=-3.74%
+
+
+======================================================================
+WALK-FORWARD SUMMARY
+======================================================================
+ year  threshold      auc  balanced_accuracy  strategy_return  0050_return  alpha_vs_0050  max_drawdown  active_sharpe  stock_exposure
+ 2018       0.61 0.529628           0.519251        -0.189703    -0.081062      -0.108640     -0.235113      -1.360732        0.428571
+ 2019       0.56 0.627376           0.552589         0.434942     0.354877       0.080065     -0.115789       0.897405        0.448980
+ 2020       0.49 0.562483           0.510091         0.331497     0.312138       0.019359     -0.191752       0.253252        0.489796
+ 2021       0.63 0.572641           0.534849         0.159038     0.221442      -0.062404     -0.108816      -1.112755        0.244898
+ 2022       0.56 0.513880           0.519757        -0.204265    -0.184612      -0.019653     -0.365045      -0.093330        0.480000
+ 2023       0.65 0.521950           0.525701         0.231530     0.244943      -0.013413     -0.067418      -0.757766        0.062500
+ 2024       0.58 0.633803           0.539507         0.517152     0.556756      -0.039604     -0.167208      -0.360301        0.142857
+ 2025       0.50 0.517309           0.527526         0.375669     0.449161      -0.073492     -0.244121      -0.767920        0.448980
+ 2026       0.52 0.586787           0.512485         0.519996     0.557421      -0.037425     -0.111498      -0.713896        0.290323
+
+Mean AUC: 0.5629
+Median AUC: 0.5625
+Mean Balanced Accuracy: 0.5269
+Positive Alpha Years: 2/9
+
+======================================================================
+FILES SAVED
+======================================================================
+data/2330_alpha_dataset.parquet
+results/threshold_scan.csv
+results/test_predictions_v2.csv
+results/test_backtest_v2.csv
+results/walk_forward.csv
+results/equity_curve_v2.png
+models/logistic_plain_v2.joblib
+models/logistic_balanced_v2.joblib
+models/xgb_v2.json
+	Command being timed: "python src/baseline_v2.py"
+	User time (seconds): 18.71
+	System time (seconds): 0.37
+	Percent of CPU this job got: 479%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.98
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 385052
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 43
+	Minor (reclaiming a frame) page faults: 48698
+	Voluntary context switches: 899
+	Involuntary context switches: 89
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 4480
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+Baseline V2 exit code: 0
+
+
+======================================================================
+RUN COMPLETE
+======================================================================
+
+End time: 2026-08-28T21:06:51+08:00
+
+Saved files:
+baseline_v1_backtest.csv
+baseline_v1_dataset.parquet
+equity_curve_v2.png
+metadata.txt
+pip-freeze.txt
+run.log
+test_backtest_v2.csv
+test_predictions_v2.csv
+threshold_scan.csv
+walk_forward.csv
+
+Full run directory:
+runs/baseline_compare_20260828_210642
+
+Full log:
+runs/baseline_compare_20260828_210642/run.log
