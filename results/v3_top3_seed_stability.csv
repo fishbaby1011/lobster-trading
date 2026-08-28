@@ -1,0 +1,3 @@
+model,seed_pairs,mean_top3_jaccard,median_top3_jaccard
+mlp_rank,28,0.3457961131946813,0.2
+mlp_reg,28,0.37820320490964887,0.2
