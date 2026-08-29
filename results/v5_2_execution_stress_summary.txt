@@ -1,0 +1,31 @@
+========================================================================================================================
+LOBSTER V5.1 REAL EXECUTION PORTFOLIO CHECK
+========================================================================================================================
+
+PREDECLARED ALL/EXPANDING 10->15 @ 10 BPS
+ horizon  execution_delay     cagr  market_cagr  ew_net_cagr  active_sharpe  rebalance_max_drawdown  mean_turnover  positive_alpha_years  worst_year  worst_year_alpha
+      10                1 0.331109     0.241515     0.242238       0.426935               -0.260105       0.546437                     5        2024         -0.421002
+      10                2 0.311472     0.243255     0.242090       0.349108               -0.273710       0.546594                     6        2024         -0.416604
+      10                3 0.310024     0.241325     0.239873       0.364454               -0.330065       0.546627                     6        2024         -0.411991
+      10                5 0.257124     0.244156     0.242049       0.135633               -0.347794       0.546303                     6        2024         -0.537262
+      20                1 0.480590     0.251817     0.248854       0.960031               -0.270877       0.524134                     8        2024         -0.486946
+      20                2 0.457808     0.254635     0.251626       0.864513               -0.291369       0.523968                     8        2024         -0.536159
+      20                3 0.461718     0.253956     0.247231       0.888650               -0.269273       0.524655                     8        2024         -0.503334
+      20                5 0.443962     0.250066     0.247051       0.805992               -0.278577       0.524746                     8        2024         -0.529702
+
+TOP DIAGNOSTIC CONFIGS @ T+1 / 10 BPS (NOT A MODEL-SELECTION TABLE)
+ horizon feature_set train_window  entry_k  exit_k     cagr  market_cagr  active_sharpe  rebalance_max_drawdown  mean_turnover  worst_year  worst_year_alpha
+      20         all    expanding       10      15 0.480590     0.251817       0.960031               -0.270877       0.524134        2024         -0.486946
+      10         all    expanding       10      15 0.331109     0.241515       0.426935               -0.260105       0.546437        2024         -0.421002
+
+PRIMARY BLOCK BOOTSTRAP
+ observed_mean   ci_2_5  ci_97_5  bootstrap_p_mean_le_zero  trials  block  horizon
+      0.042913 0.024198 0.061531                       0.0   20000     10       10
+      0.066609 0.039225 0.093840                       0.0   20000     20       20
+
+PRIMARY RANDOM BASELINE
+ horizon feature_set train_window  entry_k  exit_k  slippage_bps  execution_delay  trials  model_total_return  model_cagr  model_active_sharpe  random_return_median  random_return_p95  random_active_sharpe_p95  model_return_percentile  model_sharpe_percentile
+      20         all    expanding       10      15            10                1   10000           27.050293    0.480590             0.960031              2.685471           4.719729                 -0.148712                      1.0                      1.0
+      20         all    expanding       10      15            10                2   10000           23.638879    0.457808             0.864513              2.772915           4.849359                 -0.146629                      1.0                      1.0
+      20         all    expanding       10      15            10                3   10000           24.206403    0.461718             0.888650              2.671094           4.588189                 -0.175068                      1.0                      1.0
+      20         all    expanding       10      15            10                5   10000           21.673253    0.443962             0.805992              2.632473           4.664472                 -0.131392                      1.0                      1.0
