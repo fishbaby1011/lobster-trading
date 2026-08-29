@@ -916,7 +916,7 @@ The long-term design intentionally keeps LLM reasoning separate from determinist
 - [x] v5.1 feature ablation framework
 - [x] v5.1 rolling training windows
 - [x] explicit Open-to-Open execution simulator
-- [ ] complete v5.1 overnight robustness results
+- [x] complete v5.1 overnight robustness results
 - [ ] point-in-time historical universe
 - [ ] liquidity / capacity filters
 - [ ] full daily NAV simulation

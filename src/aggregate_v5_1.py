@@ -166,6 +166,15 @@ for (
         run / "fold_metrics.csv"
     )
 
+    # CSV inference converts 3/5/8 to integers while
+    # config metadata stores train_window as strings.
+    # Normalize before yearly pivot/merge.
+    if "train_window" in f.columns:
+        f["train_window"] = (
+            f["train_window"]
+            .astype(str)
+        )
+
     f["run"] = run.name
 
     fold_parts.append(

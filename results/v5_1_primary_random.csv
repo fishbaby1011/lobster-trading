@@ -1,0 +1,3 @@
+horizon,feature_set,train_window,entry_k,exit_k,slippage_bps,execution_delay,trials,model_total_return,model_cagr,model_active_sharpe,random_return_median,random_return_p95,random_active_sharpe_p95,model_return_percentile,model_sharpe_percentile
+20,all,expanding,10,15,10,1,10000,27.05029310540031,0.48058990734777063,0.9600312777933265,2.685470687371865,4.719729106162782,-0.14871181443247752,1.0,1.0
+20,all,expanding,10,15,10,2,10000,23.638879172601523,0.4578080314614126,0.8645130214130268,2.7729154745022715,4.849359197410118,-0.14662899311654387,1.0,1.0

@@ -1,0 +1,48 @@
+========================================================================================================================
+LOBSTER V5.1 REAL EXECUTION PORTFOLIO CHECK
+========================================================================================================================
+
+PREDECLARED ALL/EXPANDING 10->15 @ 10 BPS
+ horizon  execution_delay     cagr  market_cagr  ew_net_cagr  active_sharpe  rebalance_max_drawdown  mean_turnover  positive_alpha_years  worst_year  worst_year_alpha
+      10                1 0.331109     0.241515     0.242238       0.426935               -0.260105       0.546437                     5        2024         -0.421002
+      10                2 0.311472     0.243255     0.242090       0.349108               -0.273710       0.546594                     6        2024         -0.416604
+      20                1 0.480590     0.251817     0.248854       0.960031               -0.270877       0.524134                     8        2024         -0.486946
+      20                2 0.457808     0.254635     0.251626       0.864513               -0.291369       0.523968                     8        2024         -0.536159
+
+TOP DIAGNOSTIC CONFIGS @ T+1 / 10 BPS (NOT A MODEL-SELECTION TABLE)
+ horizon         feature_set train_window  entry_k  exit_k     cagr  market_cagr  active_sharpe  rebalance_max_drawdown  mean_turnover  worst_year  worst_year_alpha
+      20   no_market_context            8       10      20 0.547033     0.251817       1.083396               -0.216755       0.379641        2024         -0.312408
+      20 no_absolute_returns    expanding       10      15 0.503103     0.251817       1.041605               -0.232934       0.536619        2024         -0.463801
+      20   no_market_context    expanding       10      20 0.519617     0.251817       1.018581               -0.244051       0.400120        2024         -0.385056
+      20         no_relative            8       10      20 0.518093     0.251817       0.999480               -0.273116       0.398782        2024         -0.397010
+      20 no_absolute_returns    expanding       15      25 0.462191     0.251817       0.999218               -0.191910       0.370346        2024         -0.393069
+      20       no_volatility            8       10      20 0.479048     0.251817       0.963674               -0.292301       0.454182        2024         -0.372382
+      20         no_relative            8       10      15 0.499894     0.251817       0.960774               -0.250321       0.501115        2024         -0.371888
+      20                 all    expanding       10      15 0.480590     0.251817       0.960031               -0.270877       0.524134        2024         -0.486946
+      20         no_relative            8       15      25 0.457899     0.251817       0.953827               -0.260738       0.338684        2024         -0.348904
+      20   no_market_context    expanding       10      15 0.495775     0.251817       0.935760               -0.234658       0.497950        2024         -0.447929
+      20                 all            8       10      20 0.475349     0.251817       0.933628               -0.263870       0.426534        2024         -0.475568
+      20 no_absolute_returns    expanding       10      20 0.486734     0.251817       0.927797               -0.245733       0.429659        2024         -0.556427
+      20   no_market_context            8       10      15 0.485080     0.251817       0.922651               -0.216899       0.492679        2024         -0.284486
+      20            no_trend    expanding       10      15 0.499170     0.251817       0.912234               -0.263775       0.552630        2024         -0.471163
+      20                 all    expanding       10      20 0.468481     0.251817       0.903260               -0.274196       0.420918        2024         -0.514351
+      20            no_trend    expanding       15      25 0.444910     0.251817       0.899709               -0.251555       0.388679        2024         -0.295756
+      20 no_absolute_returns            8       10      20 0.467038     0.251817       0.883222               -0.242098       0.429972        2024         -0.399956
+      20            no_trend            8        5      10 0.561276     0.251817       0.875955               -0.356345       0.622291        2024         -0.522395
+      20            no_trend    expanding       10      20 0.476676     0.251817       0.874985               -0.277809       0.445657        2024         -0.462823
+      20            no_trend            8       10      15 0.461606     0.251817       0.871652               -0.278464       0.558685        2024         -0.182844
+      20       no_volatility            8       15      25 0.422845     0.251817       0.870166               -0.204752       0.393579        2024         -0.313340
+      20       no_volatility            8       10      15 0.448509     0.251817       0.862141               -0.282176       0.550398        2024         -0.408807
+      20                 all            8       10      15 0.459419     0.251817       0.857290               -0.270877       0.525279        2024         -0.484519
+      20 no_absolute_returns    expanding        5      10 0.529241     0.251817       0.853250               -0.316376       0.627351        2024         -0.482780
+      20 no_absolute_returns            8       10      15 0.450641     0.251817       0.852765               -0.256768       0.547865        2024         -0.462697
+
+PRIMARY BLOCK BOOTSTRAP
+ observed_mean   ci_2_5  ci_97_5  bootstrap_p_mean_le_zero  trials  block  horizon
+      0.042913 0.024198 0.061531                       0.0   20000     10       10
+      0.066609 0.039225 0.093840                       0.0   20000     20       20
+
+PRIMARY RANDOM BASELINE
+ horizon feature_set train_window  entry_k  exit_k  slippage_bps  execution_delay  trials  model_total_return  model_cagr  model_active_sharpe  random_return_median  random_return_p95  random_active_sharpe_p95  model_return_percentile  model_sharpe_percentile
+      20         all    expanding       10      15            10                1   10000           27.050293    0.480590             0.960031              2.685471           4.719729                 -0.148712                      1.0                      1.0
+      20         all    expanding       10      15            10                2   10000           23.638879    0.457808             0.864513              2.772915           4.849359                 -0.146629                      1.0                      1.0
