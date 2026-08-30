@@ -1,0 +1,67 @@
+[START] worker=1 gpu=0 seed=7
+[START] worker=0 gpu=0 seed=1
+[START] worker=3 gpu=1 seed=123
+[START] worker=2 gpu=1 seed=42
+[END] worker=0 gpu=0 seed=1 rc=0
+[START] worker=0 gpu=0 seed=2026
+[END] worker=1 gpu=0 seed=7 rc=0
+[START] worker=1 gpu=0 seed=3407
+[END] worker=3 gpu=1 seed=123 rc=0
+[START] worker=3 gpu=1 seed=9999
+[END] worker=2 gpu=1 seed=42 rc=0
+[START] worker=2 gpu=1 seed=8765
+[END] worker=0 gpu=0 seed=2026 rc=0
+[START] worker=0 gpu=0 seed=31415
+[END] worker=1 gpu=0 seed=3407 rc=0
+[START] worker=1 gpu=0 seed=27182
+[END] worker=3 gpu=1 seed=9999 rc=0
+[START] worker=3 gpu=1 seed=42424
+[END] worker=2 gpu=1 seed=8765 rc=0
+[START] worker=2 gpu=1 seed=16180
+[END] worker=0 gpu=0 seed=31415 rc=0
+[START] worker=0 gpu=0 seed=13579
+[END] worker=1 gpu=0 seed=27182 rc=0
+[START] worker=1 gpu=0 seed=24680
+[END] worker=3 gpu=1 seed=42424 rc=0
+[START] worker=3 gpu=1 seed=77777
+[END] worker=2 gpu=1 seed=16180 rc=0
+[START] worker=2 gpu=1 seed=55555
+[END] worker=0 gpu=0 seed=13579 rc=0
+[END] worker=1 gpu=0 seed=24680 rc=0
+[END] worker=3 gpu=1 seed=77777 rc=0
+[END] worker=2 gpu=1 seed=55555 rc=0
+
+============================================
+V5.4B TRAINING COMPLETE
+============================================
+==========================================================================================
+LOBSTER V5.4B REPAIRED-DATA VALIDATION
+==========================================================================================
+
+Frozen configuration:
+H20 / all features / expanding / 16 seeds
+
+Old v5.1 IC mean : 0.053659
+New repaired mean: 0.056213
+Delta            : +0.002553
+
+New IC std       : 0.010051
+New IC min       : 0.032679
+New IC max       : 0.069586
+Positive seeds   : 16 / 16
+
+YEARLY OOS IC
+ year  seed_count  test_ic_mean  test_ic_std  test_ic_min  test_ic_max
+ 2018          16      0.050309     0.018806     0.011506     0.072344
+ 2019          16      0.010758     0.044755    -0.086965     0.077658
+ 2020          16      0.076907     0.027583     0.012649     0.122780
+ 2021          16      0.066485     0.014243     0.042487     0.090757
+ 2022          16      0.063554     0.020360     0.028459     0.097813
+ 2023          16      0.041567     0.029021    -0.045990     0.082977
+ 2024          16      0.011083     0.028382    -0.046744     0.057043
+ 2025          16      0.088511     0.033894     0.021929     0.131680
+ 2026          16      0.096739     0.023224     0.060889     0.135270
+
+============================================
+V5.4B COMPLETE
+============================================

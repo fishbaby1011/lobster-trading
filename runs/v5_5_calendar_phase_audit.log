@@ -1,0 +1,589 @@
+====================================================================================================
+LOBSTER V5.5 CALENDAR-ANCHORED REPAIRED H20 PHASE AUDIT
+====================================================================================================
+Model         : repaired v5.4b H20 16-seed ensemble
+Features      : all
+Train window  : expanding
+Portfolio     : Top10 -> Exit15
+Calendar      : 0050.TW trading days
+Delays        : [1, 2, 3, 5]
+Slippage bps  : [0, 10, 20, 30, 50, 100]
+
+Loading repaired H20 16-seed ensemble...
+PRE-FLIGHT CALENDAR CHECK
+Prediction start : 2018-01-02
+Prediction end   : 2026-07-30
+Market days      : 2082
+Prediction days  : 2082
+Missing preds    : 0
+Extra preds      : 0
+CALENDAR COMPLETENESS: PASS
+
+[001/480] H=20 phase=00 delay=1 slip=0
+[002/480] H=20 phase=00 delay=1 slip=10
+[003/480] H=20 phase=00 delay=1 slip=20
+[004/480] H=20 phase=00 delay=1 slip=30
+[005/480] H=20 phase=00 delay=1 slip=50
+[006/480] H=20 phase=00 delay=1 slip=100
+[007/480] H=20 phase=00 delay=2 slip=0
+[008/480] H=20 phase=00 delay=2 slip=10
+[009/480] H=20 phase=00 delay=2 slip=20
+[010/480] H=20 phase=00 delay=2 slip=30
+[011/480] H=20 phase=00 delay=2 slip=50
+[012/480] H=20 phase=00 delay=2 slip=100
+[013/480] H=20 phase=00 delay=3 slip=0
+[014/480] H=20 phase=00 delay=3 slip=10
+[015/480] H=20 phase=00 delay=3 slip=20
+[016/480] H=20 phase=00 delay=3 slip=30
+[017/480] H=20 phase=00 delay=3 slip=50
+[018/480] H=20 phase=00 delay=3 slip=100
+[019/480] H=20 phase=00 delay=5 slip=0
+[020/480] H=20 phase=00 delay=5 slip=10
+[021/480] H=20 phase=00 delay=5 slip=20
+[022/480] H=20 phase=00 delay=5 slip=30
+[023/480] H=20 phase=00 delay=5 slip=50
+[024/480] H=20 phase=00 delay=5 slip=100
+[025/480] H=20 phase=01 delay=1 slip=0
+[026/480] H=20 phase=01 delay=1 slip=10
+[027/480] H=20 phase=01 delay=1 slip=20
+[028/480] H=20 phase=01 delay=1 slip=30
+[029/480] H=20 phase=01 delay=1 slip=50
+[030/480] H=20 phase=01 delay=1 slip=100
+[031/480] H=20 phase=01 delay=2 slip=0
+[032/480] H=20 phase=01 delay=2 slip=10
+[033/480] H=20 phase=01 delay=2 slip=20
+[034/480] H=20 phase=01 delay=2 slip=30
+[035/480] H=20 phase=01 delay=2 slip=50
+[036/480] H=20 phase=01 delay=2 slip=100
+[037/480] H=20 phase=01 delay=3 slip=0
+[038/480] H=20 phase=01 delay=3 slip=10
+[039/480] H=20 phase=01 delay=3 slip=20
+[040/480] H=20 phase=01 delay=3 slip=30
+[041/480] H=20 phase=01 delay=3 slip=50
+[042/480] H=20 phase=01 delay=3 slip=100
+[043/480] H=20 phase=01 delay=5 slip=0
+[044/480] H=20 phase=01 delay=5 slip=10
+[045/480] H=20 phase=01 delay=5 slip=20
+[046/480] H=20 phase=01 delay=5 slip=30
+[047/480] H=20 phase=01 delay=5 slip=50
+[048/480] H=20 phase=01 delay=5 slip=100
+[049/480] H=20 phase=02 delay=1 slip=0
+[050/480] H=20 phase=02 delay=1 slip=10
+[051/480] H=20 phase=02 delay=1 slip=20
+[052/480] H=20 phase=02 delay=1 slip=30
+[053/480] H=20 phase=02 delay=1 slip=50
+[054/480] H=20 phase=02 delay=1 slip=100
+[055/480] H=20 phase=02 delay=2 slip=0
+[056/480] H=20 phase=02 delay=2 slip=10
+[057/480] H=20 phase=02 delay=2 slip=20
+[058/480] H=20 phase=02 delay=2 slip=30
+[059/480] H=20 phase=02 delay=2 slip=50
+[060/480] H=20 phase=02 delay=2 slip=100
+[061/480] H=20 phase=02 delay=3 slip=0
+[062/480] H=20 phase=02 delay=3 slip=10
+[063/480] H=20 phase=02 delay=3 slip=20
+[064/480] H=20 phase=02 delay=3 slip=30
+[065/480] H=20 phase=02 delay=3 slip=50
+[066/480] H=20 phase=02 delay=3 slip=100
+[067/480] H=20 phase=02 delay=5 slip=0
+[068/480] H=20 phase=02 delay=5 slip=10
+[069/480] H=20 phase=02 delay=5 slip=20
+[070/480] H=20 phase=02 delay=5 slip=30
+[071/480] H=20 phase=02 delay=5 slip=50
+[072/480] H=20 phase=02 delay=5 slip=100
+[073/480] H=20 phase=03 delay=1 slip=0
+[074/480] H=20 phase=03 delay=1 slip=10
+[075/480] H=20 phase=03 delay=1 slip=20
+[076/480] H=20 phase=03 delay=1 slip=30
+[077/480] H=20 phase=03 delay=1 slip=50
+[078/480] H=20 phase=03 delay=1 slip=100
+[079/480] H=20 phase=03 delay=2 slip=0
+[080/480] H=20 phase=03 delay=2 slip=10
+[081/480] H=20 phase=03 delay=2 slip=20
+[082/480] H=20 phase=03 delay=2 slip=30
+[083/480] H=20 phase=03 delay=2 slip=50
+[084/480] H=20 phase=03 delay=2 slip=100
+[085/480] H=20 phase=03 delay=3 slip=0
+[086/480] H=20 phase=03 delay=3 slip=10
+[087/480] H=20 phase=03 delay=3 slip=20
+[088/480] H=20 phase=03 delay=3 slip=30
+[089/480] H=20 phase=03 delay=3 slip=50
+[090/480] H=20 phase=03 delay=3 slip=100
+[091/480] H=20 phase=03 delay=5 slip=0
+[092/480] H=20 phase=03 delay=5 slip=10
+[093/480] H=20 phase=03 delay=5 slip=20
+[094/480] H=20 phase=03 delay=5 slip=30
+[095/480] H=20 phase=03 delay=5 slip=50
+[096/480] H=20 phase=03 delay=5 slip=100
+[097/480] H=20 phase=04 delay=1 slip=0
+[098/480] H=20 phase=04 delay=1 slip=10
+[099/480] H=20 phase=04 delay=1 slip=20
+[100/480] H=20 phase=04 delay=1 slip=30
+[101/480] H=20 phase=04 delay=1 slip=50
+[102/480] H=20 phase=04 delay=1 slip=100
+[103/480] H=20 phase=04 delay=2 slip=0
+[104/480] H=20 phase=04 delay=2 slip=10
+[105/480] H=20 phase=04 delay=2 slip=20
+[106/480] H=20 phase=04 delay=2 slip=30
+[107/480] H=20 phase=04 delay=2 slip=50
+[108/480] H=20 phase=04 delay=2 slip=100
+[109/480] H=20 phase=04 delay=3 slip=0
+[110/480] H=20 phase=04 delay=3 slip=10
+[111/480] H=20 phase=04 delay=3 slip=20
+[112/480] H=20 phase=04 delay=3 slip=30
+[113/480] H=20 phase=04 delay=3 slip=50
+[114/480] H=20 phase=04 delay=3 slip=100
+[115/480] H=20 phase=04 delay=5 slip=0
+[116/480] H=20 phase=04 delay=5 slip=10
+[117/480] H=20 phase=04 delay=5 slip=20
+[118/480] H=20 phase=04 delay=5 slip=30
+[119/480] H=20 phase=04 delay=5 slip=50
+[120/480] H=20 phase=04 delay=5 slip=100
+[121/480] H=20 phase=05 delay=1 slip=0
+[122/480] H=20 phase=05 delay=1 slip=10
+[123/480] H=20 phase=05 delay=1 slip=20
+[124/480] H=20 phase=05 delay=1 slip=30
+[125/480] H=20 phase=05 delay=1 slip=50
+[126/480] H=20 phase=05 delay=1 slip=100
+[127/480] H=20 phase=05 delay=2 slip=0
+[128/480] H=20 phase=05 delay=2 slip=10
+[129/480] H=20 phase=05 delay=2 slip=20
+[130/480] H=20 phase=05 delay=2 slip=30
+[131/480] H=20 phase=05 delay=2 slip=50
+[132/480] H=20 phase=05 delay=2 slip=100
+[133/480] H=20 phase=05 delay=3 slip=0
+[134/480] H=20 phase=05 delay=3 slip=10
+[135/480] H=20 phase=05 delay=3 slip=20
+[136/480] H=20 phase=05 delay=3 slip=30
+[137/480] H=20 phase=05 delay=3 slip=50
+[138/480] H=20 phase=05 delay=3 slip=100
+[139/480] H=20 phase=05 delay=5 slip=0
+[140/480] H=20 phase=05 delay=5 slip=10
+[141/480] H=20 phase=05 delay=5 slip=20
+[142/480] H=20 phase=05 delay=5 slip=30
+[143/480] H=20 phase=05 delay=5 slip=50
+[144/480] H=20 phase=05 delay=5 slip=100
+[145/480] H=20 phase=06 delay=1 slip=0
+[146/480] H=20 phase=06 delay=1 slip=10
+[147/480] H=20 phase=06 delay=1 slip=20
+[148/480] H=20 phase=06 delay=1 slip=30
+[149/480] H=20 phase=06 delay=1 slip=50
+[150/480] H=20 phase=06 delay=1 slip=100
+[151/480] H=20 phase=06 delay=2 slip=0
+[152/480] H=20 phase=06 delay=2 slip=10
+[153/480] H=20 phase=06 delay=2 slip=20
+[154/480] H=20 phase=06 delay=2 slip=30
+[155/480] H=20 phase=06 delay=2 slip=50
+[156/480] H=20 phase=06 delay=2 slip=100
+[157/480] H=20 phase=06 delay=3 slip=0
+[158/480] H=20 phase=06 delay=3 slip=10
+[159/480] H=20 phase=06 delay=3 slip=20
+[160/480] H=20 phase=06 delay=3 slip=30
+[161/480] H=20 phase=06 delay=3 slip=50
+[162/480] H=20 phase=06 delay=3 slip=100
+[163/480] H=20 phase=06 delay=5 slip=0
+[164/480] H=20 phase=06 delay=5 slip=10
+[165/480] H=20 phase=06 delay=5 slip=20
+[166/480] H=20 phase=06 delay=5 slip=30
+[167/480] H=20 phase=06 delay=5 slip=50
+[168/480] H=20 phase=06 delay=5 slip=100
+[169/480] H=20 phase=07 delay=1 slip=0
+[170/480] H=20 phase=07 delay=1 slip=10
+[171/480] H=20 phase=07 delay=1 slip=20
+[172/480] H=20 phase=07 delay=1 slip=30
+[173/480] H=20 phase=07 delay=1 slip=50
+[174/480] H=20 phase=07 delay=1 slip=100
+[175/480] H=20 phase=07 delay=2 slip=0
+[176/480] H=20 phase=07 delay=2 slip=10
+[177/480] H=20 phase=07 delay=2 slip=20
+[178/480] H=20 phase=07 delay=2 slip=30
+[179/480] H=20 phase=07 delay=2 slip=50
+[180/480] H=20 phase=07 delay=2 slip=100
+[181/480] H=20 phase=07 delay=3 slip=0
+[182/480] H=20 phase=07 delay=3 slip=10
+[183/480] H=20 phase=07 delay=3 slip=20
+[184/480] H=20 phase=07 delay=3 slip=30
+[185/480] H=20 phase=07 delay=3 slip=50
+[186/480] H=20 phase=07 delay=3 slip=100
+[187/480] H=20 phase=07 delay=5 slip=0
+[188/480] H=20 phase=07 delay=5 slip=10
+[189/480] H=20 phase=07 delay=5 slip=20
+[190/480] H=20 phase=07 delay=5 slip=30
+[191/480] H=20 phase=07 delay=5 slip=50
+[192/480] H=20 phase=07 delay=5 slip=100
+[193/480] H=20 phase=08 delay=1 slip=0
+[194/480] H=20 phase=08 delay=1 slip=10
+[195/480] H=20 phase=08 delay=1 slip=20
+[196/480] H=20 phase=08 delay=1 slip=30
+[197/480] H=20 phase=08 delay=1 slip=50
+[198/480] H=20 phase=08 delay=1 slip=100
+[199/480] H=20 phase=08 delay=2 slip=0
+[200/480] H=20 phase=08 delay=2 slip=10
+[201/480] H=20 phase=08 delay=2 slip=20
+[202/480] H=20 phase=08 delay=2 slip=30
+[203/480] H=20 phase=08 delay=2 slip=50
+[204/480] H=20 phase=08 delay=2 slip=100
+[205/480] H=20 phase=08 delay=3 slip=0
+[206/480] H=20 phase=08 delay=3 slip=10
+[207/480] H=20 phase=08 delay=3 slip=20
+[208/480] H=20 phase=08 delay=3 slip=30
+[209/480] H=20 phase=08 delay=3 slip=50
+[210/480] H=20 phase=08 delay=3 slip=100
+[211/480] H=20 phase=08 delay=5 slip=0
+[212/480] H=20 phase=08 delay=5 slip=10
+[213/480] H=20 phase=08 delay=5 slip=20
+[214/480] H=20 phase=08 delay=5 slip=30
+[215/480] H=20 phase=08 delay=5 slip=50
+[216/480] H=20 phase=08 delay=5 slip=100
+[217/480] H=20 phase=09 delay=1 slip=0
+[218/480] H=20 phase=09 delay=1 slip=10
+[219/480] H=20 phase=09 delay=1 slip=20
+[220/480] H=20 phase=09 delay=1 slip=30
+[221/480] H=20 phase=09 delay=1 slip=50
+[222/480] H=20 phase=09 delay=1 slip=100
+[223/480] H=20 phase=09 delay=2 slip=0
+[224/480] H=20 phase=09 delay=2 slip=10
+[225/480] H=20 phase=09 delay=2 slip=20
+[226/480] H=20 phase=09 delay=2 slip=30
+[227/480] H=20 phase=09 delay=2 slip=50
+[228/480] H=20 phase=09 delay=2 slip=100
+[229/480] H=20 phase=09 delay=3 slip=0
+[230/480] H=20 phase=09 delay=3 slip=10
+[231/480] H=20 phase=09 delay=3 slip=20
+[232/480] H=20 phase=09 delay=3 slip=30
+[233/480] H=20 phase=09 delay=3 slip=50
+[234/480] H=20 phase=09 delay=3 slip=100
+[235/480] H=20 phase=09 delay=5 slip=0
+[236/480] H=20 phase=09 delay=5 slip=10
+[237/480] H=20 phase=09 delay=5 slip=20
+[238/480] H=20 phase=09 delay=5 slip=30
+[239/480] H=20 phase=09 delay=5 slip=50
+[240/480] H=20 phase=09 delay=5 slip=100
+[241/480] H=20 phase=10 delay=1 slip=0
+[242/480] H=20 phase=10 delay=1 slip=10
+[243/480] H=20 phase=10 delay=1 slip=20
+[244/480] H=20 phase=10 delay=1 slip=30
+[245/480] H=20 phase=10 delay=1 slip=50
+[246/480] H=20 phase=10 delay=1 slip=100
+[247/480] H=20 phase=10 delay=2 slip=0
+[248/480] H=20 phase=10 delay=2 slip=10
+[249/480] H=20 phase=10 delay=2 slip=20
+[250/480] H=20 phase=10 delay=2 slip=30
+[251/480] H=20 phase=10 delay=2 slip=50
+[252/480] H=20 phase=10 delay=2 slip=100
+[253/480] H=20 phase=10 delay=3 slip=0
+[254/480] H=20 phase=10 delay=3 slip=10
+[255/480] H=20 phase=10 delay=3 slip=20
+[256/480] H=20 phase=10 delay=3 slip=30
+[257/480] H=20 phase=10 delay=3 slip=50
+[258/480] H=20 phase=10 delay=3 slip=100
+[259/480] H=20 phase=10 delay=5 slip=0
+[260/480] H=20 phase=10 delay=5 slip=10
+[261/480] H=20 phase=10 delay=5 slip=20
+[262/480] H=20 phase=10 delay=5 slip=30
+[263/480] H=20 phase=10 delay=5 slip=50
+[264/480] H=20 phase=10 delay=5 slip=100
+[265/480] H=20 phase=11 delay=1 slip=0
+[266/480] H=20 phase=11 delay=1 slip=10
+[267/480] H=20 phase=11 delay=1 slip=20
+[268/480] H=20 phase=11 delay=1 slip=30
+[269/480] H=20 phase=11 delay=1 slip=50
+[270/480] H=20 phase=11 delay=1 slip=100
+[271/480] H=20 phase=11 delay=2 slip=0
+[272/480] H=20 phase=11 delay=2 slip=10
+[273/480] H=20 phase=11 delay=2 slip=20
+[274/480] H=20 phase=11 delay=2 slip=30
+[275/480] H=20 phase=11 delay=2 slip=50
+[276/480] H=20 phase=11 delay=2 slip=100
+[277/480] H=20 phase=11 delay=3 slip=0
+[278/480] H=20 phase=11 delay=3 slip=10
+[279/480] H=20 phase=11 delay=3 slip=20
+[280/480] H=20 phase=11 delay=3 slip=30
+[281/480] H=20 phase=11 delay=3 slip=50
+[282/480] H=20 phase=11 delay=3 slip=100
+[283/480] H=20 phase=11 delay=5 slip=0
+[284/480] H=20 phase=11 delay=5 slip=10
+[285/480] H=20 phase=11 delay=5 slip=20
+[286/480] H=20 phase=11 delay=5 slip=30
+[287/480] H=20 phase=11 delay=5 slip=50
+[288/480] H=20 phase=11 delay=5 slip=100
+[289/480] H=20 phase=12 delay=1 slip=0
+[290/480] H=20 phase=12 delay=1 slip=10
+[291/480] H=20 phase=12 delay=1 slip=20
+[292/480] H=20 phase=12 delay=1 slip=30
+[293/480] H=20 phase=12 delay=1 slip=50
+[294/480] H=20 phase=12 delay=1 slip=100
+[295/480] H=20 phase=12 delay=2 slip=0
+[296/480] H=20 phase=12 delay=2 slip=10
+[297/480] H=20 phase=12 delay=2 slip=20
+[298/480] H=20 phase=12 delay=2 slip=30
+[299/480] H=20 phase=12 delay=2 slip=50
+[300/480] H=20 phase=12 delay=2 slip=100
+[301/480] H=20 phase=12 delay=3 slip=0
+[302/480] H=20 phase=12 delay=3 slip=10
+[303/480] H=20 phase=12 delay=3 slip=20
+[304/480] H=20 phase=12 delay=3 slip=30
+[305/480] H=20 phase=12 delay=3 slip=50
+[306/480] H=20 phase=12 delay=3 slip=100
+[307/480] H=20 phase=12 delay=5 slip=0
+[308/480] H=20 phase=12 delay=5 slip=10
+[309/480] H=20 phase=12 delay=5 slip=20
+[310/480] H=20 phase=12 delay=5 slip=30
+[311/480] H=20 phase=12 delay=5 slip=50
+[312/480] H=20 phase=12 delay=5 slip=100
+[313/480] H=20 phase=13 delay=1 slip=0
+[314/480] H=20 phase=13 delay=1 slip=10
+[315/480] H=20 phase=13 delay=1 slip=20
+[316/480] H=20 phase=13 delay=1 slip=30
+[317/480] H=20 phase=13 delay=1 slip=50
+[318/480] H=20 phase=13 delay=1 slip=100
+[319/480] H=20 phase=13 delay=2 slip=0
+[320/480] H=20 phase=13 delay=2 slip=10
+[321/480] H=20 phase=13 delay=2 slip=20
+[322/480] H=20 phase=13 delay=2 slip=30
+[323/480] H=20 phase=13 delay=2 slip=50
+[324/480] H=20 phase=13 delay=2 slip=100
+[325/480] H=20 phase=13 delay=3 slip=0
+[326/480] H=20 phase=13 delay=3 slip=10
+[327/480] H=20 phase=13 delay=3 slip=20
+[328/480] H=20 phase=13 delay=3 slip=30
+[329/480] H=20 phase=13 delay=3 slip=50
+[330/480] H=20 phase=13 delay=3 slip=100
+[331/480] H=20 phase=13 delay=5 slip=0
+[332/480] H=20 phase=13 delay=5 slip=10
+[333/480] H=20 phase=13 delay=5 slip=20
+[334/480] H=20 phase=13 delay=5 slip=30
+[335/480] H=20 phase=13 delay=5 slip=50
+[336/480] H=20 phase=13 delay=5 slip=100
+[337/480] H=20 phase=14 delay=1 slip=0
+[338/480] H=20 phase=14 delay=1 slip=10
+[339/480] H=20 phase=14 delay=1 slip=20
+[340/480] H=20 phase=14 delay=1 slip=30
+[341/480] H=20 phase=14 delay=1 slip=50
+[342/480] H=20 phase=14 delay=1 slip=100
+[343/480] H=20 phase=14 delay=2 slip=0
+[344/480] H=20 phase=14 delay=2 slip=10
+[345/480] H=20 phase=14 delay=2 slip=20
+[346/480] H=20 phase=14 delay=2 slip=30
+[347/480] H=20 phase=14 delay=2 slip=50
+[348/480] H=20 phase=14 delay=2 slip=100
+[349/480] H=20 phase=14 delay=3 slip=0
+[350/480] H=20 phase=14 delay=3 slip=10
+[351/480] H=20 phase=14 delay=3 slip=20
+[352/480] H=20 phase=14 delay=3 slip=30
+[353/480] H=20 phase=14 delay=3 slip=50
+[354/480] H=20 phase=14 delay=3 slip=100
+[355/480] H=20 phase=14 delay=5 slip=0
+[356/480] H=20 phase=14 delay=5 slip=10
+[357/480] H=20 phase=14 delay=5 slip=20
+[358/480] H=20 phase=14 delay=5 slip=30
+[359/480] H=20 phase=14 delay=5 slip=50
+[360/480] H=20 phase=14 delay=5 slip=100
+[361/480] H=20 phase=15 delay=1 slip=0
+[362/480] H=20 phase=15 delay=1 slip=10
+[363/480] H=20 phase=15 delay=1 slip=20
+[364/480] H=20 phase=15 delay=1 slip=30
+[365/480] H=20 phase=15 delay=1 slip=50
+[366/480] H=20 phase=15 delay=1 slip=100
+[367/480] H=20 phase=15 delay=2 slip=0
+[368/480] H=20 phase=15 delay=2 slip=10
+[369/480] H=20 phase=15 delay=2 slip=20
+[370/480] H=20 phase=15 delay=2 slip=30
+[371/480] H=20 phase=15 delay=2 slip=50
+[372/480] H=20 phase=15 delay=2 slip=100
+[373/480] H=20 phase=15 delay=3 slip=0
+[374/480] H=20 phase=15 delay=3 slip=10
+[375/480] H=20 phase=15 delay=3 slip=20
+[376/480] H=20 phase=15 delay=3 slip=30
+[377/480] H=20 phase=15 delay=3 slip=50
+[378/480] H=20 phase=15 delay=3 slip=100
+[379/480] H=20 phase=15 delay=5 slip=0
+[380/480] H=20 phase=15 delay=5 slip=10
+[381/480] H=20 phase=15 delay=5 slip=20
+[382/480] H=20 phase=15 delay=5 slip=30
+[383/480] H=20 phase=15 delay=5 slip=50
+[384/480] H=20 phase=15 delay=5 slip=100
+[385/480] H=20 phase=16 delay=1 slip=0
+[386/480] H=20 phase=16 delay=1 slip=10
+[387/480] H=20 phase=16 delay=1 slip=20
+[388/480] H=20 phase=16 delay=1 slip=30
+[389/480] H=20 phase=16 delay=1 slip=50
+[390/480] H=20 phase=16 delay=1 slip=100
+[391/480] H=20 phase=16 delay=2 slip=0
+[392/480] H=20 phase=16 delay=2 slip=10
+[393/480] H=20 phase=16 delay=2 slip=20
+[394/480] H=20 phase=16 delay=2 slip=30
+[395/480] H=20 phase=16 delay=2 slip=50
+[396/480] H=20 phase=16 delay=2 slip=100
+[397/480] H=20 phase=16 delay=3 slip=0
+[398/480] H=20 phase=16 delay=3 slip=10
+[399/480] H=20 phase=16 delay=3 slip=20
+[400/480] H=20 phase=16 delay=3 slip=30
+[401/480] H=20 phase=16 delay=3 slip=50
+[402/480] H=20 phase=16 delay=3 slip=100
+[403/480] H=20 phase=16 delay=5 slip=0
+[404/480] H=20 phase=16 delay=5 slip=10
+[405/480] H=20 phase=16 delay=5 slip=20
+[406/480] H=20 phase=16 delay=5 slip=30
+[407/480] H=20 phase=16 delay=5 slip=50
+[408/480] H=20 phase=16 delay=5 slip=100
+[409/480] H=20 phase=17 delay=1 slip=0
+[410/480] H=20 phase=17 delay=1 slip=10
+[411/480] H=20 phase=17 delay=1 slip=20
+[412/480] H=20 phase=17 delay=1 slip=30
+[413/480] H=20 phase=17 delay=1 slip=50
+[414/480] H=20 phase=17 delay=1 slip=100
+[415/480] H=20 phase=17 delay=2 slip=0
+[416/480] H=20 phase=17 delay=2 slip=10
+[417/480] H=20 phase=17 delay=2 slip=20
+[418/480] H=20 phase=17 delay=2 slip=30
+[419/480] H=20 phase=17 delay=2 slip=50
+[420/480] H=20 phase=17 delay=2 slip=100
+[421/480] H=20 phase=17 delay=3 slip=0
+[422/480] H=20 phase=17 delay=3 slip=10
+[423/480] H=20 phase=17 delay=3 slip=20
+[424/480] H=20 phase=17 delay=3 slip=30
+[425/480] H=20 phase=17 delay=3 slip=50
+[426/480] H=20 phase=17 delay=3 slip=100
+[427/480] H=20 phase=17 delay=5 slip=0
+[428/480] H=20 phase=17 delay=5 slip=10
+[429/480] H=20 phase=17 delay=5 slip=20
+[430/480] H=20 phase=17 delay=5 slip=30
+[431/480] H=20 phase=17 delay=5 slip=50
+[432/480] H=20 phase=17 delay=5 slip=100
+[433/480] H=20 phase=18 delay=1 slip=0
+[434/480] H=20 phase=18 delay=1 slip=10
+[435/480] H=20 phase=18 delay=1 slip=20
+[436/480] H=20 phase=18 delay=1 slip=30
+[437/480] H=20 phase=18 delay=1 slip=50
+[438/480] H=20 phase=18 delay=1 slip=100
+[439/480] H=20 phase=18 delay=2 slip=0
+[440/480] H=20 phase=18 delay=2 slip=10
+[441/480] H=20 phase=18 delay=2 slip=20
+[442/480] H=20 phase=18 delay=2 slip=30
+[443/480] H=20 phase=18 delay=2 slip=50
+[444/480] H=20 phase=18 delay=2 slip=100
+[445/480] H=20 phase=18 delay=3 slip=0
+[446/480] H=20 phase=18 delay=3 slip=10
+[447/480] H=20 phase=18 delay=3 slip=20
+[448/480] H=20 phase=18 delay=3 slip=30
+[449/480] H=20 phase=18 delay=3 slip=50
+[450/480] H=20 phase=18 delay=3 slip=100
+[451/480] H=20 phase=18 delay=5 slip=0
+[452/480] H=20 phase=18 delay=5 slip=10
+[453/480] H=20 phase=18 delay=5 slip=20
+[454/480] H=20 phase=18 delay=5 slip=30
+[455/480] H=20 phase=18 delay=5 slip=50
+[456/480] H=20 phase=18 delay=5 slip=100
+[457/480] H=20 phase=19 delay=1 slip=0
+[458/480] H=20 phase=19 delay=1 slip=10
+[459/480] H=20 phase=19 delay=1 slip=20
+[460/480] H=20 phase=19 delay=1 slip=30
+[461/480] H=20 phase=19 delay=1 slip=50
+[462/480] H=20 phase=19 delay=1 slip=100
+[463/480] H=20 phase=19 delay=2 slip=0
+[464/480] H=20 phase=19 delay=2 slip=10
+[465/480] H=20 phase=19 delay=2 slip=20
+[466/480] H=20 phase=19 delay=2 slip=30
+[467/480] H=20 phase=19 delay=2 slip=50
+[468/480] H=20 phase=19 delay=2 slip=100
+[469/480] H=20 phase=19 delay=3 slip=0
+[470/480] H=20 phase=19 delay=3 slip=10
+[471/480] H=20 phase=19 delay=3 slip=20
+[472/480] H=20 phase=19 delay=3 slip=30
+[473/480] H=20 phase=19 delay=3 slip=50
+[474/480] H=20 phase=19 delay=3 slip=100
+[475/480] H=20 phase=19 delay=5 slip=0
+[476/480] H=20 phase=19 delay=5 slip=10
+[477/480] H=20 phase=19 delay=5 slip=20
+[478/480] H=20 phase=19 delay=5 slip=30
+[479/480] H=20 phase=19 delay=5 slip=50
+[480/480] H=20 phase=19 delay=5 slip=100
+
+========================================================================================================================
+LOBSTER V5.5 CALENDAR-ANCHORED REPAIRED H20 PHASE AUDIT
+========================================================================================================================
+
+FROZEN CONFIGURATION
+H20 / all / expanding / repaired v5.4b 16-seed ensemble / Top10 -> Exit15
+Rebalance phases anchored to 0050.TW market trading calendar.
+
+CALENDAR PREFLIGHT
+prediction_start=2018-01-02
+prediction_end=2026-07-30
+market_days=2082
+prediction_days=2082
+missing_prediction_days=0
+
+PRIMARY TEST: T+1 / 10 BPS / ALL 20 PHASES
+ phase     cagr  market_cagr  alpha_cagr  active_sharpe  rebalance_max_drawdown  mean_turnover  positive_alpha_years  worst_year  worst_year_alpha
+     0 0.408794     0.231748    0.177046       0.786492               -0.255504       0.534582                     8        2024         -0.468452
+     1 0.320095     0.240644    0.079451       0.406677               -0.298194       0.557064                     7        2024         -0.538473
+     2 0.395199     0.254726    0.140473       0.617288               -0.232289       0.561063                     8        2024         -0.527970
+     3 0.411503     0.253701    0.157801       0.643910               -0.244847       0.539182                     7        2024         -0.482394
+     4 0.348945     0.250226    0.098720       0.454638               -0.269439       0.537321                     6        2024         -0.520004
+     5 0.461039     0.250156    0.210883       0.885628               -0.222262       0.551288                     8        2024         -0.320732
+     6 0.391307     0.250183    0.141124       0.634514               -0.192485       0.548239                     7        2024         -0.400033
+     7 0.439176     0.251839    0.187337       0.721661               -0.213611       0.559421                     8        2024         -0.445050
+     8 0.415082     0.248191    0.166891       0.691833               -0.205999       0.541585                     7        2024         -0.427965
+     9 0.407440     0.247739    0.159701       0.612859               -0.241649       0.561075                     7        2024         -0.570253
+    10 0.422516     0.247808    0.174707       0.678295               -0.232531       0.551109                     6        2024         -0.474271
+    11 0.481548     0.242893    0.238655       0.841841               -0.197721       0.555826                     6        2024         -0.363086
+    12 0.404601     0.237395    0.167205       0.693999               -0.236714       0.563485                     7        2024         -0.438801
+    13 0.446462     0.236815    0.209647       0.803656               -0.259399       0.562307                     7        2024         -0.370845
+    14 0.414237     0.241738    0.172499       0.681949               -0.291558       0.560610                     7        2024         -0.431725
+    15 0.387962     0.241471    0.146490       0.716436               -0.246834       0.543204                     8        2024         -0.416342
+    16 0.350983     0.240320    0.110663       0.555064               -0.265384       0.573690                     7        2024         -0.466707
+    17 0.384407     0.238026    0.146381       0.715293               -0.328825       0.555494                     7        2024         -0.336563
+    18 0.340153     0.233471    0.106682       0.544802               -0.294955       0.564555                     8        2024         -0.549028
+    19 0.429219     0.231901    0.197318       0.900800               -0.251468       0.535475                     8        2024         -0.404809
+
+PRIMARY PHASE DISTRIBUTION
+ horizon  phases  cagr_min  cagr_median  cagr_max  market_cagr_median  alpha_cagr_min  alpha_cagr_median  alpha_cagr_max  beat_market_fraction  active_sharpe_min  active_sharpe_median  active_sharpe_max  positive_sharpe_fraction  worst_sharpe_phase  worst_alpha_phase  rebalance_mdd_worst  positive_alpha_years_min  worst_year_alpha_min  phase0_cagr  phase0_active_sharpe
+    20.0    20.0  0.320095     0.408117  0.481548            0.242316        0.079451           0.163296        0.238655                   1.0           0.406677              0.686891             0.9008                       1.0                 1.0                1.0            -0.328825                       6.0             -0.570253     0.408794              0.786492
+
+DESCRIPTIVE V5.3 -> V5.5 COMPARISON
+NOTE: model data and calendar definition both changed; this is not causal attribution.
+                  metric     v5_3     v5_5     delta
+                cagr_min 0.325714 0.320095 -0.005619
+             cagr_median 0.395617 0.408117  0.012500
+          alpha_cagr_min 0.087440 0.079451 -0.007989
+       alpha_cagr_median 0.154795 0.163296  0.008501
+       active_sharpe_min 0.452156 0.406677 -0.045479
+    active_sharpe_median 0.676481 0.686891  0.010410
+    beat_market_fraction 1.000000 1.000000  0.000000
+positive_sharpe_fraction 1.000000 1.000000  0.000000
+
+FULL DELAY / COST SUMMARY
+ horizon  execution_delay  slippage_bps  phases  cagr_min  cagr_median  cagr_max  market_cagr_median  alpha_cagr_min  alpha_cagr_median  alpha_cagr_max  beat_market_fraction  active_sharpe_min  active_sharpe_median  active_sharpe_max  positive_sharpe_fraction  worst_sharpe_phase  worst_alpha_phase  rebalance_mdd_worst  positive_alpha_years_min  worst_year_alpha_min  phase0_cagr  phase0_active_sharpe
+      20                1             0      20  0.338143     0.427037  0.501741            0.242316        0.097499           0.182375        0.258848                  1.00           0.480196              0.750104           0.970612                       1.0                   1                  1            -0.319717                         6             -0.556874     0.427266              0.856206
+      20                1            10      20  0.320095     0.408117  0.481548            0.242316        0.079451           0.163296        0.238655                  1.00           0.406677              0.686891           0.900800                       1.0                   1                  1            -0.328825                         6             -0.570253     0.408794              0.786492
+      20                1            20      20  0.302269     0.389426  0.461602            0.242316        0.061625           0.144309        0.218709                  1.00           0.333173              0.623574           0.830758                       1.0                   1                  1            -0.337823                         6             -0.583462     0.390539              0.716766
+      20                1            30      20  0.284662     0.370961  0.441901            0.242316        0.044018           0.125403        0.199008                  1.00           0.259694              0.559525           0.760496                       1.0                   1                  1            -0.346713                         6             -0.596502     0.372501              0.647035
+      20                1            50      20  0.250094     0.334699  0.403223            0.242316        0.009450           0.088677        0.160330                  1.00           0.112860              0.418578           0.619345                       1.0                   1                  1            -0.364172                         5             -0.622084     0.337060              0.507583
+      20                1           100      20  0.167339     0.246668  0.310623            0.242316       -0.073305           0.001354        0.067730                  0.50          -0.252997              0.084494           0.315582                       0.7                   1                  1            -0.449581                         3             -0.683849     0.252075              0.159329
+      20                2             0      20  0.325736     0.416013  0.510159            0.242316        0.082395           0.173861        0.272763                  1.00           0.408288              0.715352           0.979168                       1.0                   1                  1            -0.336186                         6             -0.557574     0.406832              0.735052
+      20                2            10      20  0.307878     0.397221  0.489865            0.242316        0.064537           0.154942        0.252470                  1.00           0.334680              0.653818           0.919766                       1.0                   1                  1            -0.343332                         6             -0.573344     0.388627              0.667049
+      20                2            20      20  0.290239     0.378657  0.469821            0.242316        0.046898           0.136254        0.232425                  1.00           0.261151              0.592232           0.860194                       1.0                   1                  1            -0.350411                         6             -0.588884     0.370637              0.599035
+      20                2            30      20  0.272816     0.360316  0.450022            0.242316        0.029475           0.117793        0.212626                  1.00           0.187713              0.525457           0.800456                       1.0                   1                  1            -0.357423                         5             -0.604197     0.352859              0.531016
+      20                2            50      20  0.238610     0.324300  0.411150            0.242316       -0.004731           0.081733        0.173755                  0.95           0.041149              0.395671           0.680497                       1.0                   1                  1            -0.372508                         5             -0.634156     0.317932              0.394990
+      20                2           100      20  0.156714     0.238319  0.318086            0.242316       -0.086627          -0.004532        0.080690                  0.40          -0.322962              0.060933           0.377978                       0.6                   1                  1            -0.420534                         3             -0.705292     0.234176              0.055283
+      20                3             0      20  0.328934     0.413777  0.517656            0.241605        0.087872           0.169679        0.280842                  1.00           0.420987              0.725176           1.002664                       1.0                   1                  1            -0.301983                         6             -0.546859     0.415729              0.776444
+      20                3            10      20  0.311023     0.394813  0.497243            0.241605        0.069960           0.150923        0.260428                  1.00           0.349131              0.657875           0.944390                       1.0                   1                  1            -0.309499                         6             -0.561635     0.397407              0.706266
+      20                3            20      20  0.293331     0.376081  0.477079            0.241605        0.052269           0.132394        0.240265                  1.00           0.277325              0.590453           0.885903                       1.0                   1                  1            -0.316946                         6             -0.576210     0.379302              0.636085
+      20                3            30      20  0.275857     0.357579  0.457164            0.241605        0.034794           0.113816        0.220349                  1.00           0.205581              0.522295           0.827205                       1.0                   1                  1            -0.325928                         5             -0.590587     0.361410              0.565906
+      20                3            50      20  0.241549     0.321251  0.418063            0.241605        0.000486           0.077084        0.181249                  1.00           0.062317              0.390381           0.709193                       1.0                   1                  1            -0.343998                         5             -0.618757     0.326259              0.425586
+      20                3           100      20  0.159414     0.234269  0.324456            0.241605       -0.081649          -0.009987        0.087641                  0.30          -0.294088              0.033480           0.410725                       0.7                   1                  1            -0.400546                         3             -0.691197     0.241967              0.075313
+      20                5             0      20  0.333662     0.404805  0.529462            0.241141        0.089419           0.163567        0.287991                  1.00           0.432774              0.731063           1.036551                       1.0                   1                  1            -0.320366                         6             -0.556744     0.398152              0.707679
+      20                5            10      20  0.315633     0.386133  0.508922            0.241141        0.071390           0.144672        0.267451                  1.00           0.362106              0.660984           0.975977                       1.0                   1                  1            -0.329347                         6             -0.568655     0.380025              0.635047
+      20                5            20      20  0.297825     0.367686  0.488634            0.241141        0.053582           0.126010        0.247163                  1.00           0.291487              0.590795           0.915176                       1.0                   1                  1            -0.338222                         6             -0.581426     0.362112              0.562385
+      20                5            30      20  0.280237     0.349463  0.468595            0.241141        0.035994           0.107578        0.227123                  1.00           0.220924              0.520212           0.854152                       1.0                   1                  1            -0.346995                         5             -0.597021     0.344412              0.489700
+      20                5            50      20  0.245709     0.313794  0.429250            0.241141        0.001466           0.071393        0.187779                  1.00           0.080005              0.377269           0.731451                       1.0                   1                  1            -0.364232                         4             -0.627498     0.309637              0.344295
+      20                5           100      20  0.163056     0.228122  0.335051            0.241141       -0.081187          -0.015222        0.093580                  0.25          -0.270674              0.029772           0.421087                       0.6                   1                  1            -0.445185                         2             -0.699675     0.226254             -0.019070
+
+SAVED:
+  results/v5_5_calendar_phase_audit.csv
+  results/v5_5_calendar_phase_summary.csv
+  results/v5_5_primary_all_phases.csv
+  results/v5_5_vs_v5_3_primary.csv
+  results/v5_5_calendar_audit_summary.txt
